@@ -6,16 +6,55 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+    ruby 2.0.0p353
+    Rails 4.0.2
 
 * System dependencies
+    Ruby
+    sudo apt-get install mongodb-10gen
+    Ubuntu latest standard version
 
 * Configuration
+    Config Ruby & Mongodb
+    Default ruby on rails configuration
+    *rails new app_name --skip-active-record
+    * .ruby-version (or) .rvmrv => rvm use ruby-2.0.0-p353@joblee
+    * Mongodb Config
+        *In Gemfile add following gems
+        gem 'bson_ext'
+        gem 'mongo'
+        gem 'mongoid', github: 'mongoid/mongoid
+        gem 'mongoid-ancestry'
+
+    *generate mongo db
+        rails g mongoid:config
+    *Change db requirements
+        myapp/config/mongoid.yml => Change database name
+        for mongodb start => sudo service mongodb start
+                    stop => sudo service mongodb
+
+         Ref :  http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+                http://mongoid.org/en/mongoid/docs/installation.html
 
 * Database creation
+    *myapp/config/mongoid.yml => Change database name
+    *Normal default Postgres or other database follow
+        If you are using postgres
+            1.rake db:create
+            2.rake db:migrate
+
 
 * Database initialization
 
-* How to run the test suite
+* How to run Application
+    1.Install Rvm
+    2.Install ruby 2 => rvm inslall 2.0
+    3.Run rvm use ruby 2
+    4.Run rvm gemset create hiee
+    5.Run rvm gemset use hiee
+    6.Run bundle install
+    7.Enter ruby & rvm gemset version in .ruby-version
+
 
 * Services (job queues, cache servers, search engines, etc.)
 
@@ -26,3 +65,13 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+Rails Model Generator without Migration
+    * rails g model name --migration=false
+Migrate manually
+    * rails generate migration Names
+Generator controller without view & helper & asstes
+    * rails g controller agent --skip-helper --skip-assets --skip-view
+Solr Gongig
+    *install solr
+    * https://github.com/sunspot/sunspot : coonfig Sunspot
