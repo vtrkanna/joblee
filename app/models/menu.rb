@@ -6,7 +6,7 @@ class Menu
   field :status_id, :type => Integer
   field :parent_id, :type => Integer
   field :sequence_order, :type => Integer
-  field :url_id, :type => Integer
+  field :domain_id, :type => Integer
   field :page_id, :type => Integer
   field :site_id, :type => Integer
   field :active, :type => Boolean

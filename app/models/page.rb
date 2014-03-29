@@ -10,7 +10,7 @@ class Page
   field :site_id, :type => Integer
   field :page_type_id, :type => Integer
   field :active, :type => Boolean
-  field :url_id, :type => Integer
+  field :domain_id, :type => Integer
   field :layout, :type => String
   field :layout_required, :type => Boolean
   field :menu_id, :type => Integer

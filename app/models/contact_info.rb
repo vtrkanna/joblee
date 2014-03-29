@@ -13,7 +13,7 @@ class ContactInfo
   field :work_type
   field :work_fax
   field :designation
-  field :url_id, :type => Integer
+  field :domain_id, :type => Integer
   field :social_hub_id, :type => Integer
   field :address_id, :type => Integer
   field :created_by

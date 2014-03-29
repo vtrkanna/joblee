@@ -3,7 +3,7 @@ class Site
 
   field :name, :type => String
   field :alt_name, :type => String
-  field :url_id, :type => Integer
+  field :domain_id, :type => Integer
   field :active, :type => Boolean
   field :page_id, :type => Integer
   field :status_id, :type => Integer
