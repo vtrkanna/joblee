@@ -18,6 +18,17 @@ gem 'bson_ext'
 gem 'mongo'
 gem 'mongoid', github: 'mongoid/mongoid'
 
+#Using Haml
+gem 'haml'
+gem 'haml-rails'
+#gem 'haml-contrib'
+#gem 'RedCloth'
+#gem 'bootstrap-sass'
+#gem "rails3-generators"
+
+#Using slim
+#gem 'slim'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
