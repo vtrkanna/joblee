@@ -2,20 +2,8 @@
 %html
   %head
     %title Job System
-    = stylesheet_link_tag 'application', media: 'all', "data-turbolinks"
-
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Joblee</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
-</html>
+    = stylesheet_link_tag 'application', media: 'all', "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+    %body
+      = yield
