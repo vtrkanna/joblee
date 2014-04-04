@@ -28,9 +28,18 @@ module Joblee
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
+    config.generators.stylesheets = false
+    config.generators.javascripts = false
+    config.generators.helper      = false
+
     config.generators do |g|
-      g.template_engine :haml
+      g.template_engine :slim
     end
+
+    #for haml default gen
+    #config.generators do |g|
+    #  g.template_engine :haml
+    #end
 
   end
 end

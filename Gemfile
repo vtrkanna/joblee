@@ -27,7 +27,8 @@ gem 'haml-rails'
 #gem "rails3-generators"
 
 #Using slim
-#gem 'slim'
+gem 'slim'
+gem 'slim-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
