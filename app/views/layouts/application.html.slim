@@ -1,0 +1,13 @@
+doctype html
+  html
+    head
+      title Joblee
+      =stylesheet_link_tag "basic_site"
+      =javascript_include_tag "basic_site"
+      =csrf_meta_tags
+      body
+        div id="wrapper"
+        div id="wrapperheader"
+        =yield
+        div id="footer"
+  
