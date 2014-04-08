@@ -1,0 +1,92 @@
+html, body {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: inherit !important;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html body.contentpane {
+    height: auto;
+    font-size: 75%;
+}
+
+
+
+body {
+    font-size: 80%;
+    background: #000 url(bg-master.jpg) right top fixed no-repeat;
+    background-size: auto 100%;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family : "Source Sans Pro", Verdana, "Times New Roman", Times, serif;
+}
+
+body object {
+    display: block;
+}
+
+iframe {
+    border: 0px;
+}
+
+
+#wrapper{width: 1170px}
+#wrapper {
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+}
+
+#wrapper{
+    width: 1000px;
+    color: #585858;
+    background-color: #373737;
+    position: relative;
+    margin-left: 0;
+}
+
+.container{margin-right: auto;margin-left: auto}
+
+#wrapperheader, #banner, #footer {
+    background-image: url(bg-page.png);
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+#wrapperheader {
+    margin-left: 80px;
+    position: relative;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 0 #FFF;
+    -webkit-box-shadow: 0 1px 0 #FFF;
+}
+
+#banner {
+    margin-left: 80px;
+}
+
+#left-menu{
+    z-index: 900;
+    color: #f2f2f2;
+    float: left;
+}
+
+#wrapperheader div.jsn-modulecontainer ul.menu-treemenu li a, #jsn-footer div.jsn-modulecontainer ul.menu-treemenu li a {
+    color: #EEE;
+}
+
+#wrapperheader div[class*="box"] ul.menu-treemenu li a, #jsn-footer div[class*="box"] ul.menu-treemenu li a {
+    color: #404040;
+}
