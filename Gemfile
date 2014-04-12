@@ -30,6 +30,12 @@ gem 'haml-rails'
 gem 'slim'
 gem 'slim-rails'
 
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
