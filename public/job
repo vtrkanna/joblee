@@ -1,3 +1,18 @@
+https://gist.github.com/bsodmike/1369419
+http://railscasts.com/episodes/221-subdomains-in-rails-3
+http://stackoverflow.com/questions/18734552/rails-3-how-to-escape-from-subdomain-route-to-the-normal-route?rq=1
+http://stackoverflow.com/questions/3656699/rails-restful-routing-and-subdomains
+http://guides.rubyonrails.org/routing.html#advanced-constraints
+http://stackoverflow.com/questions/8370901/running-2-websites-off-of-same-rails-codebase?lq=1
+http://stackoverflow.com/questions/4207657/rails-routing-to-handle-multiple-domains-on-single-application
+http://stackoverflow.com/questions/4207657/rails-routing-to-handle-multiple-domains-on-single-application?rq=1
+http://asciicasts.com/episodes/221-subdomains-in-rails-3
+http://guides.rubyonrails.org/routing.html#advanced-constraints
+http://railscasts.com/episodes/123-subdomains
+
+http://railscasts.com/episodes/400-what-s-new-in-rails-4
+http://railscasts.com/episodes/125-dynamic-layouts
+
 http://rdoc.info/gems/slim/frames
 https://github.com/slim-template/slim
 
@@ -8,4 +23,30 @@ templatemo_209_work
 
 http://www.joomlashine.com/
 
+
+https://github.com/rspec/rspec-rails [1]
+http://viget.com/extend/rails-engine-testing-with-rspec-capybara-and-factorygirl
+[2]
+https://www.relishapp.com/rspec/rspec-expectations/v/2-14/docs/built-in-matchers
+[3]
+http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax [4]
+https://github.com/jnicklas/capybara [5]
+
+
+This e-mail may contain confidential and/or privileged information. If
+you are not the intended recipient (or have received this e-mail in
+error) please notify the sender immediately and destroy this e-mail. Any
+unauthorized copying, disclosure or distribution of the material in this
+e-mail is strictly forbidden.
+
+Links:
+------
+[1] https://github.com/rspec/rspec-rails
+[2] http://viget.com/extend/rails-engine-testing-with-rspec-capybara-and-factorygirl
+[3] https://www.relishapp.com/rspec/rspec-expectations/v/2-14/docs/built-in-matchers
+[4] http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax
+[5] https://github.com/jnicklas/capybara
+[6] http://in.linkedin.com/in/kreatiodeepak
+[7] http://www.kreatio.com
+[8] http://www.linkedin.com/e/sig/213194626/?hs=false&amp;tok=1AGEyQefKb2RY1
 
