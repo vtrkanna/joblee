@@ -15,4 +15,6 @@ class Site
   field :created_at, :type => DateTime
   field :updated_at, :type => DateTime
 
+  embeds_many :albums
+
 end

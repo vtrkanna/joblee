@@ -7,6 +7,13 @@ Joblee::Application.routes.draw do
        get "edit_page"
     end
   end
+ resources :sites do
+    collection do
+       get "list_sites"
+       get "show_site"
+       get "edit_site"
+    end
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
