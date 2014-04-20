@@ -5,4 +5,8 @@ class PageController < ApplicationController
     render layout: "site", template: "page/list_page"
   end
 
+  def edit_page
+
+  end
+
 end

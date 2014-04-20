@@ -1,15 +1,15 @@
 Joblee::Application.routes.draw do
 
-  resources :pages do
+  resources :page do
     collection do
-       get "list_pages"
+       get :list
        get "show_page"
        get "edit_page"
     end
   end
- resources :sites do
+ resources :site do
     collection do
-       get "list_sites"
+       get :list
        get "show_site"
        get "edit_site"
     end
