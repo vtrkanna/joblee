@@ -1,6 +1,7 @@
 class SiteController < ApplicationController
 
   def list
+    params[:page] ||= 1
     @sites = Site.order(:created_at).page params[:page]
   end
 

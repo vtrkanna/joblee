@@ -15,6 +15,8 @@ class Site
   field :created_at, :type => DateTime
   field :updated_at, :type => DateTime
 
-  embeds_many :albums
+  #embeds_many :albums
+  has_many :pages
+  scope :active, where(:active => true)
 
 end
