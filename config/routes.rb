@@ -3,7 +3,7 @@ Joblee::Application.routes.draw do
   resources :page do
     collection do
        get :list
-       get "show_page"
+       get :show_page
        get "edit_page"
     end
   end
@@ -11,7 +11,7 @@ Joblee::Application.routes.draw do
     collection do
        get :list
        get "show_site"
-       get "edit_site"
+       get :edit_site
     end
   end
 

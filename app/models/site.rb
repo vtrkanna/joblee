@@ -5,7 +5,6 @@ class Site
   field :alt_name, :type => String
   field :domain_id, :type => Integer
   field :active, :type => Boolean
-  field :page_id, :type => Integer
   field :status_id, :type => Integer
   field :tag_id, :type => Integer
   field :layout, :type => String
@@ -14,9 +13,10 @@ class Site
   field :updated_by, :type => Integer
   field :created_at, :type => DateTime
   field :updated_at, :type => DateTime
+  #field :page_id, :type => Integer
 
-  #embeds_many :albums
+  validate :name, :domain_id, :layout, :active, :presence => true
+
   embeds_many :pages
-  #scope :active, where(:active => true)
 
 end
