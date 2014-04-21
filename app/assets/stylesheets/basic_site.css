@@ -99,7 +99,7 @@ iframe {
 
 #footermodules {
     border-top: 1px solid #E0E0E0;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
     font-size: 0.9em;
     color: #767676;
 }
@@ -382,7 +382,7 @@ fieldset {
     border: none;
     margin: 0;
 }
-.jsn-joomla-30 fieldset {
+.joomla-30 fieldset {
     padding: 0;
     margin: 0;
 }
@@ -509,4 +509,61 @@ ol li {
 }
 .clearbreak {
     clear: both;
+}
+
+@media only screen and (min-width: 1200px) {
+    #page, #pos-topbar {
+        width: 1170px;
+    }
+
+    div.modulescontainer, #usermodules3, #pos-content-top, #pos-content-bottom {
+        padding: 20px;
+    }
+
+    #content.hasleft.hasright #maincontent #maincontent_inner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #pos-promo-left div.modulecontainer, #pos-promo-right div.modulecontainer {
+        padding: 20px;
+    }
+
+    #leftsidecontent_inner, #rightsidecontent_inner, #pos-innerleft_inner, #pos-innerright_inner {
+        padding: 20px;
+    }
+
+    #maincontent.order1 {
+        padding-left: 20px;
+    }
+
+    #maincontent.order3, #content.hasleft:not([class="hasright"]) #maincontent.order2, #content.hasright:not([class="hasleft"]) #maincontent.order2 {
+        padding-right: 20px;
+    }
+
+    #maincontent.span12[class*="order"], #content.hasleft.hasright #maincontent.order2 {
+        padding: 0;
+    }
+
+    #maincontent.span12 #centercol.span12 {
+        padding: 0 20px;
+    }
+
+    #content.hasinnerleft:not([class="hasinnerright"]) #maincontent.span12 #centercol {
+        padding-right: 20px;
+    }
+
+    #content.hasinnerright:not([class="hasinnerleft"]) #maincontent.span12 #entercol {
+        padding-left: 20px;
+    }
+
+    #content.hasright #maincontent_inner, #content.hasleft.hasright #maincontent.order1 #maincontent_inner {
+        margin-right: -5px;
+        margin-left: 10px;
+    }
+
+    #content.hasleft #maincontent_inner, #content.hasleft.hasright #maincontent.order3 #maincontent_inner, #content.hasright .order2 #maincontent_inner, #content.hasleft.hasright #maincontent.order3 #maincontent_inner {
+        margin-left: -5px;
+        margin-right: 10px;
+    }
 }
