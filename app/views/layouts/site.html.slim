@@ -2,17 +2,20 @@ doctype html
 html
   head
     title Joblee
-    =stylesheet_link_tag "basic_site"
+    =stylesheet_link_tag "base_first","base_third","base_second", "cop_in"
     =javascript_include_tag "basic_site"
     =csrf_meta_tags
-    body
-      div id="wrapper" clsss ="container"
-        =render "layouts/left_menu"
-      div id="wrapperheader"
-      div id="left-menu"
-      div id="banner"
-      =yield
-      div id="footer"
-        =render "layouts/footer"
-      div id="jsn-social-icons"
+    body id="jsn-master" class="jsn-textstyle-business jsn-color-red jsn-direction-ltr jsn-responsive jsn-mobile jsn-joomla-25  jsn-com-content jsn-view-article jsn-itemid-435 jsn-homepage"
+      div id="jsn-page" clsss ="container"
+        div id="jsn-pos-stick-righttop"
+          =render "layouts/right_top"
+        div id="jsn-header"
+          =render "layouts/left_menu"
+        div id="jsn-menu"
+          =render "layouts/left_menu"
+        div id="jsn-body"
+        =yield
+        div id="jsn-footer"
+          =render "layouts/footer"
+        div id="jsn-social-icons"
 

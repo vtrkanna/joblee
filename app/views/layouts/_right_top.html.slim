@@ -1,0 +1,37 @@
+div class=" jsn-modulecontainer"
+  div class="jsn-modulecontainer_inner"
+    div class="jsn-modulecontent"
+      div
+        /styl:
+        /  div#jsn-demo-builder-toggle { position: absolute; width: 580px; right: -486px; top: 50px; transition: all 0.6s ease; -moz-transition: all 0.6s ease; -webkit-transition: all 0.6s ease;}
+        /  div#jsn-demo-builder-toggle > a:hover:not(.active) { right: -480px; }
+        /  div#jsn-demo-builder-toggle.active { right: 0; }
+        /  div#jsn-demo-builder-toggle > div, div#jsn-demo-builder-toggle > a { float: right; cursor: default; }
+        /  div#jsn-demo-builder-toggle > a { overflow: hidden; }
+        /  div#jsn-demo-builder-toggle > a img { position: relative; right: -5px; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; cursor: pointer; }
+        /  div#jsn-demo-builder-toggle > a img:hover, div#jsn-demo-builder-toggle > a.active img { right: 0; }
+        /  div#jsn-demo-builder-toggle > div > iframe { background: #fff url(images/db-loading.gif) center center no-repeat; border-top: ares 10px #434448; border-right: ares 10px #434448; border-bottom: ares 10px #434448; border-left: none; border-bottom-right-radius: 5px; }
+        /  div#jsn-demo-builder-toggle { margin: 0; padding: 0; }
+        div id="jsn-demo-builder-toggle"
+          div id="jsn-demo-builder-wrapper"
+            iframe id="jsn-demo-builder-iframe" width="480px" height="590"
+            a id="jsn-demo-builder-button" href="javascript:void(0);"
+              img src="images/extensions/custom-html/demo_builder_button_black_rtl.png" alt="Demo Builder Toggle"
+        javascript:
+          var demoButton = document.getElementById("jsn-demo-builder-button");
+          demoButton.addEventListener("click", function() {
+            this.classList.toggle("active");
+
+            var outDiv = document.getElementById("jsn-demo-builder-toggle");
+            outDiv.classList.toggle("active");
+
+            // Only load the iframe if the button is clicked as active and the iframe is not loaded
+            if (this.classList.contains("active") && !outDiv.classList.contains("iframeloaded")) {
+              // Load the iframe
+              document.getElementById("jsn-demo-builder-iframe").src = "http://myjoomlashine.com/demo-builder/index.php?template=ares";
+            }
+
+            // Add an indicator that the iframe has been loaded, no reload if click the button again and again
+            outDiv.classList.add("iframeloaded")
+          }, false);
+      div class="clearbreak"

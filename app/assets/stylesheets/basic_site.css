@@ -353,8 +353,35 @@ div.modulescontainer5.horizontallayout div.modulecontainer:last-child {
     margin-left: 8.51063829787234%;
     *margin-left: 8.404255319148938%;
 }
+/* ============================== CSS3 EFFECTS ============================== *//* ----- GENERAL ----- */
 ::selection, ::-moz-selection, ::-webkit-selection {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+blockquote {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+pre {
+    border-radius: 0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+body.jsn-direction-rtl pre {
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+a {
+    transition: color 0.3s ease;
+    moz-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
 }
 #pos-footer {
     text-align: left;
@@ -566,4 +593,87 @@ ol li {
         margin-left: -5px;
         margin-right: 10px;
     }
+}
+
+
+/* ============================== LAYOUT ============================== *//* =============== LAYOUT - GENERAL LAYOUT =============== */
+.clearafter:after {
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    content: ".";
+    display: block;
+    visibility: hidden;
+}
+
+html[xmlns].clearafter {
+    display: block;
+}
+
+* html .clearafter {
+    height: 1%;
+}
+
+.clearbreak {
+    clear: both;
+}
+
+div.jsn-modulecontainer {
+    margin-top: 30px;
+}
+
+div.jsn-modulecontainer:first-child, div.jsn-horizontallayout div.jsn-modulecontainer {
+    margin-top: 0;
+}
+
+div.jsn-modulescontainer {
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div.jsn-modulescontainer5.jsn-horizontallayout div.jsn-modulecontainer {
+    width: 23.404255319148934%;
+    margin-left: 2.127659574468085%;
+}
+
+div.jsn-modulescontainer5.jsn-horizontallayout div.jsn-modulecontainer:first-child {
+    margin-left: 0;
+}
+
+div.jsn-modulescontainer5.jsn-horizontallayout div.jsn-modulecontainer:last-child {
+    margin-left: 0;
+    margin-top: 2.127659574468085%;
+    clear: left;
+}
+
+/* FILE: /templates/jsn_ares_pro/css/colors/red.css */
+/*** @author    *//* ============================== DEFAULT HTML ============================== */
+::selection {
+    background: #4684C5;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #4684C5;
+    color: #fff;
+}
+
+::-webkit-selection {
+    background: #4684C5;
+    color: #fff;
+}
+
+a, h1, span.breadcrumbs a, span.breadcrumbs span {
+    color: #b93434;
+}
+
+a:hover, a:active {
+    color: #7d1b1b;
+}
+
+pre {
+    border-color: #339fcc;
 }
