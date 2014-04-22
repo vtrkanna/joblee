@@ -59,7 +59,7 @@ div.k2FeedIcon a, div.k2FeedIcon a:hover {
     padding: 0;
     width: 16px;
     height: 16px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/fugue/feed.png) no-repeat 50% 50%;
+    background: url(feed.png) no-repeat 50% 50%;
 }
 
 div.k2FeedIcon a span, div.k2FeedIcon a:hover span {
@@ -82,13 +82,13 @@ div.k2FeedIcon a span, div.k2FeedIcon a:hover span {
 }
 
 div.itemRatingForm .formLogLoading {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/loading.gif) no-repeat left center;
+    background: url(loading.gif) no-repeat left center;
     height: 25px;
     padding: 0 0 0 20px;
 }
 
 .itemRatingList, .itemRatingList a:hover, .itemRatingList .itemCurrentRating {
-    background: transparent url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/transparent_star.gif) left -1000px repeat-x;
+    background: transparent url(transparent_star.gif) left -1000px repeat-x;
 }
 
 .itemRatingList {
@@ -253,7 +253,7 @@ table.csvData tr td {
 
 /* --- Featured flags: the classes are repeated further below to indicate placement in the CSS structure --- */
 div.itemIsFeatured, div.catItemIsFeatured, div.userItemIsFeatured {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/featuredItem.png) no-repeat 100% 0;
+    background: url(featuredItem.png) no-repeat 100% 0;
 }
 
 /*----------------------------------------------------------------------Component: Item view----------------------------------------------------------------------*/
@@ -433,7 +433,7 @@ div.itemToolbar ul li a#fontDecrease {
 div.itemToolbar ul li a#fontDecrease img {
     width: 13px;
     height: 13px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/font_decrease.gif) no-repeat;
+    background: url(font_decrease.gif) no-repeat;
 }
 
 div.itemToolbar ul li a#fontIncrease {
@@ -443,7 +443,7 @@ div.itemToolbar ul li a#fontIncrease {
 div.itemToolbar ul li a#fontIncrease img {
     width: 13px;
     height: 13px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/font_increase.gif) no-repeat;
+    background: url(font_increase.gif) no-repeat;
 }
 
 div.itemToolbar ul li a#fontDecrease span, div.itemToolbar ul li a#fontIncrease span {
@@ -827,7 +827,7 @@ div.itemRelImageGallery {
 div.itemVideoBlock {
     margin: 0 0 16px 0;
     padding: 16px;
-    background: #010101 url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/videoplayer-bg.gif) repeat-x bottom;
+    background: #010101 url(videoplayer-bg.gif) repeat-x bottom;
 }
 
 div.itemVideoBlock div.itemVideoEmbedded {
@@ -906,7 +906,7 @@ div.itemComments ul.itemCommentsList li {
 }
 
 div.itemComments ul.itemCommentsList li.authorResponse {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/stripes.png) repeat;
+    background: url(stripes.png) repeat;
 }
 
 div.itemComments ul.itemCommentsList li.unpublishedComment {
@@ -980,7 +980,7 @@ div.itemComments ul.itemCommentsList li span.commentToolbar a:hover {
 }
 
 div.itemComments ul.itemCommentsList li span.commentToolbarLoading {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/searchLoader.gif) no-repeat 100% 50%;
+    background: url(searchLoader.gif) no-repeat 100% 50%;
 }
 
 div.itemCommentsPagination {
@@ -1061,7 +1061,7 @@ div.itemCommentsForm form span#formLog {
 }
 
 div.itemCommentsForm form .formLogLoading {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/loading.gif) no-repeat left center;
+    background: url(loading.gif) no-repeat left center;
 }
 
 /* "Report comment" form */
@@ -1136,7 +1136,7 @@ div.k2ReportCommentFormContainer form span#formLog {
 }
 
 div.k2ReportCommentFormContainer form .formLogLoading {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/loading.gif) no-repeat left center;
+    background: url(loading.gif) no-repeat left center;
 }
 
 /* Back to top link */
@@ -1535,7 +1535,7 @@ div.catItemAttachmentsBlock ul.catItemAttachments li span {
 div.catItemVideoBlock {
     margin: 0 0 16px 0;
     padding: 16px;
-    background: #010101 url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/videoplayer-bg.gif) repeat-x bottom;
+    background: #010101 url(videoplayer-bg.gif) repeat-x bottom;
 }
 
 div.catItemVideoBlock div.catItemVideoEmbedded {
@@ -2248,7 +2248,7 @@ div.latestItemTagsBlock ul.latestItemTags li a:hover {
 div.latestItemVideoBlock {
     margin: 0 0 16px 0;
     padding: 16px;
-    background: #010101 url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/videoplayer-bg.gif) repeat-x bottom;
+    background: #010101 url(videoplayer-bg.gif) repeat-x bottom;
 }
 
 div.latestItemVideoBlock span.latestItemVideo {
@@ -2752,7 +2752,7 @@ div.k2CalendarBlock {
 
 /* use this height value so that the calendar height won't change on Month change via ajax */
 div.k2CalendarLoader {
-    background: #fff url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/k2CalendarLoader.gif) no-repeat 50% 50%;
+    background: #fff url(k2CalendarLoader.gif) no-repeat 50% 50%;
 }
 
 table.calendar {
@@ -2960,7 +2960,7 @@ div.k2SearchBlock form input.button {
 }
 
 div.k2SearchBlock form input.k2SearchLoading {
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/system/searchLoader.gif) no-repeat 100% 50%;
+    background: url(searchLoader.gif) no-repeat 100% 50%;
 }
 
 div.k2SearchBlock div.k2LiveSearchResults {
@@ -3053,7 +3053,7 @@ a.ubUserFeedIcon, a.ubUserFeedIcon:hover {
     padding: 0;
     width: 16px;
     height: 16px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/fugue/feed.png) no-repeat 50% 50%;
+    background: url(feed.png) no-repeat 50% 50%;
 }
 
 a.ubUserFeedIcon span, a.ubUserFeedIcon:hover span {
@@ -3066,7 +3066,7 @@ a.ubUserURL, a.ubUserURL:hover {
     padding: 0;
     width: 16px;
     height: 16px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/fugue/globe.png) no-repeat 50% 50%;
+    background: url(globe.png) no-repeat 50% 50%;
 }
 
 a.ubUserURL span, a.ubUserURL:hover span {
@@ -3079,7 +3079,7 @@ span.ubUserEmail {
     padding: 0;
     width: 16px;
     height: 16px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_k2/images/fugue/mail.png) no-repeat 50% 50%;
+    background: url(mail.png) no-repeat 50% 50%;
     overflow: hidden;
 }
 
@@ -3136,12 +3136,12 @@ div.k2UsersBlock ul li ul.ubUserItems li {
     height: 30px;
     right: -15px;
     top: -15px;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/closebox.png) no-repeat center;
+    background: url(closebox.png) no-repeat center;
     border: none;
 }
 
 .sbox-loading #sbox-content {
-    background-image: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/spinner.gif);
+    background-image: url(spinner.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -3203,52 +3203,52 @@ div.k2UsersBlock ul li ul.ubUserItems li {
     left: 0;
     top: -40px;
     width: 100%;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_n.png) repeat-x;
+    background: url(bg_n.png) repeat-x;
 }
 
 .sbox-bg-ne {
     right: -33px;
     top: -40px;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_ne.png) no-repeat;
+    background: url(bg_ne.png) no-repeat;
 }
 
 .sbox-bg-e {
     right: -33px;
     top: 0;
     height: 100%;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_e.png) repeat-y;
+    background: url(bg_e.png) repeat-y;
 }
 
 .sbox-bg-se {
     right: -33px;
     bottom: -40px;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_se.png) no-repeat;
+    background: url(bg_se.png) no-repeat;
 }
 
 .sbox-bg-s {
     left: 0;
     bottom: -40px;
     width: 100%;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_s.png) repeat-x;
+    background: url(bg_s.png) repeat-x;
 }
 
 .sbox-bg-sw {
     left: -33px;
     bottom: -40px;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_sw.png) no-repeat;
+    background: url(bg_sw.png) no-repeat;
 }
 
 .sbox-bg-w {
     left: -33px;
     top: 0;
     height: 100%;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_w.png) repeat-y;
+    background: url(bg_w.png) repeat-y;
 }
 
 .sbox-bg-nw {
     left: -33px;
     top: -40px;
-    background: url(/joomla-templates/jsn_ares/pro/media/system/images/modal/bg_nw.png) no-repeat;
+    background: url(bg_nw.png) no-repeat;
 }
 
 @-moz-document url-prefix() {
@@ -3301,7 +3301,7 @@ div.jsn-missing-data-alert-box .header span.icon-warning {
     margin: 8px;
     width: 32px;
     height: 32px;
-    background: url(/joomla-templates/jsn_ares/pro/components/com_imageshow/assets/images/icon-uni-32/icon-text-alert.png) no-repeat;
+    background: url(icon-text-alert.png) no-repeat;
 }
 
 div.jsn-missing-data-alert-box .header span.message {
@@ -4542,7 +4542,7 @@ a:hover, a:focus {
 /* System Standard Messages */
 #system-message > .message > ul {
     background-color: #C3D2E5;
-    background-image: url(/joomla-templates/jsn_ares/pro/media/system/images/notice-info.png);
+    background-image: url(notice-info.png);
 }
 
 /* System Error Messages */
@@ -4552,21 +4552,21 @@ a:hover, a:focus {
 
 #system-message > .error > ul {
     background-color: #E6C0C0;
-    background-image: url(/joomla-templates/jsn_ares/pro/media/system/images/notice-alert.png);
+    background-image: url(notice-alert.png);
     border-color: #DE7A7B;
 }
 
 /* System Warning Messages */
 #system-message > .warning > ul {
     background-color: #E6C8A6;
-    background-image: url(/joomla-templates/jsn_ares/pro/media/system/images/notice-note.png);
+    background-image: url(notice-note.png);
     border-color: #FFBB00;
 }
 
 /* System Notice Messages */
 #system-message > .notice > ul {
     background-color: #EFE7B8;
-    background-image: url(/joomla-templates/jsn_ares/pro/media/system/images/notice-note.png);
+    background-image: url(notice-note.png);
     border-color: #F0DC7E;
 }
 
@@ -4671,31 +4671,31 @@ label.invalid {
 }
 
 .button2-left {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_left.png) no-repeat;
+    background: url(j_button2_left.png) no-repeat;
     float: left;
     margin-left: 5px;
 }
 
 .button2-right {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_right.png) 100% 0 no-repeat;
+    background: url(j_button2_right.png) 100% 0 no-repeat;
     float: left;
     margin-left: 5px;
 }
 
 .button2-left .image {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_image.png) 100% 0 no-repeat;
+    background: url(j_button2_image.png) 100% 0 no-repeat;
 }
 
 .button2-left .readmore, .button2-left .article {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_readmore.png) 100% 0 no-repeat;
+    background: url(j_button2_readmore.png) 100% 0 no-repeat;
 }
 
 .button2-left .pagebreak {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_pagebreak.png) 100% 0 no-repeat;
+    background: url(j_button2_pagebreak.png) 100% 0 no-repeat;
 }
 
 .button2-left .blank {
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/j_button2_blank.png) 100% 0 no-repeat;
+    background: url(j_button2_blank.png) 100% 0 no-repeat;
 }
 
 /* Tooltips */
@@ -4716,7 +4716,7 @@ div.tooltip h4 {
     margin-top: -15px;
     padding-top: 15px;
     padding-bottom: 5px;
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/selector-arrow.png) no-repeat;
+    background: url(selector-arrow.png) no-repeat;
 }
 
 div.tooltip p {
@@ -4759,7 +4759,7 @@ a img.calendar {
     width: 16px;
     height: 16px;
     margin-left: 3px;
-    background: url(/joomla-templates/jsn_ares/pro/templates/system/images/calendar.png) no-repeat;
+    background: url(calendar.png) no-repeat;
     cursor: pointer;
     vertical-align: middle;
 }
