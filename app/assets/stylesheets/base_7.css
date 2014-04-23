@@ -1,8 +1,1743 @@
 /* FILE: /templates/jsn_ares_pro/css/layouts/jsn_mobile.css */
-/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//************************************************************************************ mobile layout (240 - 1023): common settings for both smartphone and tablet*************************************************************************************/@media only screen and (max-width: 960px),(max-device-width: 960px) {body {font-size: 14px !important;-webkit-text-size-adjust: none;}img {max-width: 100%;height: auto;width: auto\9; /* ie8 */}#jsn-master #jsn-page {width: auto;min-width: inherit;position: relative;}#jsn-body {margin-top: -48px;} div[id*="jsn-pos-stick-left"], div[id*="jsn-pos-stick-right"] { display: none; height: 0; } #jsn-content-bottom { margin-top: 0; } #jsn-menu div.jsn-modulecontainer {    margin-bottom: 0;} #jsn-menu-inner { text-align: left; } #jsn-promo { padding-top: 0; } #jsn-promo #jsn-pos-promo { float: none; left: auto; width: 100%; } #jsn-promo #jsn-pos-promo-left, #jsn-promo #jsn-pos-promo-right { left: auto; width: 100%; } #jsn-promo.jsn-haspromoright #jsn-pos-promo-left, #jsn-promo.jsn-haspromoleft #jsn-pos-promo-right { width: 49.99%; } #jsn-pos-promo-left div.jsn-modulecontainer { padding-right: 10px; } #jsn-pos-promo-right div.jsn-modulecontainer { padding-left: 10px; } #jsn-content #jsn-maincontent { float: none; left: auto; width: 100%; padding: 0 10px !important; margin-bottom: 10px; } #jsn-content #jsn-leftsidecontent { float: none; left: auto; width: 100%; } #jsn-content #jsn-rightsidecontent { float: none; width: 100%; } #jsn-content_inner, #jsn-content_inner2 { background: none; } #jsn-content #jsn-centercol, #jsn-content #jsn-pos-innerleft, #jsn-content #jsn-pos-innerright { width: 100%; left: auto; margin: 0; } [id*="jsn-content_inner"], [id*="jsn-maincontent_inner"] {left: auto;right: auto;} div.jsn-modulescontainer4.jsn-horizontallayout div.jsn-modulecontainer { width: 49.9%; } div.jsn-modulecontainer.display-mobile { display: block; } div.jsn-modulecontainer.display-desktop { display: none; } /* =============== LAYOUT CHANGING =============== */ #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent #jsn-maincontent_inner, #jsn-content.jsn-hasright #jsn-maincontent_inner, #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order1 #jsn-maincontent_inner { margin-left: 0; margin-right: 0; } /* =============== MODULE STYLES =============== */ #jsn-leftsidecontent_inner, #jsn-rightsidecontent_inner, #jsn-pos-innerleft_inner, #jsn-pos-innerright_inner { padding: 10px 0; } #jsn-content.jsn-hasright #jsn-leftsidecontent_inner, #jsn-content.jsn-hasinnerright #jsn-pos-innerleft_inner { padding: 10px 10px 10px 0; } #jsn-content.jsn-hasleft #jsn-rightsidecontent_inner, #jsn-content.jsn-hasinnerleft #jsn-pos-innerright_inner { padding: 10px 0 10px 10px; } #jsn-content-top div.jsn-horizontallayout div[class*=solid-], #jsn-content-bottom div.jsn-horizontallayout div[class*=box-], #jsn-content-bottom div.jsn-horizontallayout div[class*=solid-], #jsn-content { margin-top: 0; } h3.jsn-moduletitle { font-size: 1.2em; } /* =============== MAIN MENU =============== */ #jsn-menu { float: none; margin-bottom: 0; width: 100%; } #jsn-pos-mainmenu { position: relative; } #jsn-menu.jsn-menu-sticky { position: fixed; top: 0; left: 0 !important; } #jsn-menu.jsn-menu-sticky #jsn-desktopswitch, #jsn-menu.jsn-menu-sticky #jsn-mobileswitch, #jsn-menu.jsn-menu-sticky #jsn-sitetoolspanel { display: none; } /* ----- MAIN TOGGLE ----- */ #jsn-pos-mainmenu .jsn-menu-toggle { cursor: pointer; display: inline-block; } #jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle { width: 80px; height: 48px; text-indent: -999em; background: #222 url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/menu-toggle.png) center center no-repeat; background-size: 30px auto; } body.jsn-direction-rtl #jsn-pos-mainmenu .jsn-menu-toggle { float: right; display: block; clear: both; overflow: hidden; text-indent: 999em; } #jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle.active { background-color: #000; } #jsn-pos-mainmenu ul.jsn-menu-mobile { position: absolute; width: 100%; z-index: 1000; } #jsn-pos-mainmenu .jsn-menu-toggle + ul { display: none; } #jsn-pos-mainmenu .jsn-menu-toggle + ul.jsn-menu-mobile { display: block; } #jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner:hover h3.jsn-moduletitle { background: none; } #jsn-menu .jsn-modulecontainer.display-dropdown.jsn-dropdown-active .jsn-modulecontainer_inner h3.jsn-moduletitle { background: #4A4A4A; color: #FFFFFF; } #jsn-menu div.display-dropdown.jsn-modulecontainer .jsn-modulecontainer_inner .jsn-modulecontent { visibility: visible; display:none; } #jsn-menu div.display-dropdown.jsn-dropdown-active.jsn-modulecontainer .jsn-modulecontainer_inner .jsn-modulecontent { display: block; } body.jsn-direction-rtl #jsn-menu #jsn-pos-mainmenu ul.jsn-menu-mobile { right: 0; left: auto; top: 48px; } #jsn-menu #jsn-pos-toolbar { width: 80px; float: left; }body.jsn-direction-rtl #jsn-menu #jsn-pos-toolbar { float: right; } body.jsn-direction-rtl #jsn-menu .jsn-menu-toggle + ul { right: 0; } /* ----- LEVEL 1 ----- */ #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li { float: none; width: auto; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li { border-top: 1px solid #252525; border-bottom: 1px solid #000; border-right: none; border-left: none; margin: 0; max-width: inherit; } div.jsn-modulecontainer ul.menu-mainmenu > li:before, #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.first { border-top: none; display: inline; } div.jsn-modulecontainer ul.menu-mainmenu > li { text-align: left; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a { padding-left: 25px; } body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a { padding-left: 15px; padding-right: 25px; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menudescription, #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a:hover { max-width: 100%; border: none; background: #111; color: #ddd; font-size: 1.1em; text-decoration: none; text-align: left; } div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menudescription { background: transparent; } body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a, body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a:hover, body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle { text-align: right; } body.jsn-specialfont.jsn-textstyle-business #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle { font-size: 1.1em !important; } body.jsn-specialfont.jsn-textstyle-personal #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle { font-size: 1.5em !important; } body.jsn-specialfont.jsn-textstyle-news #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle { font-size: 1.2em !important; } /* ----- ACTIVE STATE COLOR ----- */ #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li.active > a { color: #FFF; text-shadow: 0 1px 0 rgba(0,0,0,0.6); } body.jsn-color-blue #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #2491ca; } body.jsn-color-green #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #a8b729; } body.jsn-color-red #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #e56655; } body.jsn-color-violet #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #c457b3; } body.jsn-color-grey #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #444; } body.jsn-color-orange #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { background-color: #e19a35; }body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu > li { text-align: right; } /* ----- LEVEL 2 ----- */ #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu.jsn-menu-mobile ul { width: auto; position: static !important; background: #222; visibility: visible; opacity: 1; filter: alpha(opacity=100); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; margin: 0; padding: 0; box-shadow: none; border: none; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > ul:before { display: none; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > .jsn-menu-mobile { padding: 5px 15px; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul li { border: none; background: none; } #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li a { border: none; background: none; color: #ccc; padding: 8px 0 8px 20px; background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-base.png) left -754px no-repeat; box-shadow: none !important; } #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu.menu-iconmenu ul [class*="jsn-icon-"] > a, #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu.menu-iconmenu ul [class*="jsn-color-"] > a { background-image: none; padding-left: 0; } #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li a { text-align: left; } body.jsn-direction-rtl #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li a { text-align: right; } body.jsn-direction-rtl #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li a, body.jsn-direction-rtl #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li.parent > a { padding-left: 0; padding-right: 20px; background-position: right -754px; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle { top: 0; padding: 0; margin: 0; width: 32px; height: 32px; cursor: pointer; position: absolute; background: rgba(255,255,255,0.08) url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icon-toggle-expand.png) center center no-repeat; filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#4c000000', EndColorStr='#4c000000'); right: 0; } body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle { left: 0; right: auto; } #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle.active { background-image: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icon-toggle-collapse.png); } /* ----- LEVEL 3 ----- */ #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul ul li { margin-left: 20px; margin-right: 10px; } body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul ul li { margin-left: 10px; margin-right: 20px; } /* ----- ICONS MENU ----- */ ul.menu-mainmenu.menu-iconmenu > li > a > span { padding: 0 0 0 24px; } body.jsn-direction-rtl ul.menu-mainmenu.menu-iconmenu > li > a > span { padding: 0 24px 0 0; text-align: right; } .menu-mainmenu.menu-iconmenu > .jsn-icon-article > a > span { background-position: 0 0; } .menu-mainmenu.menu-iconmenu > .jsn-icon-calendar > a > span { background-position: 0 -220px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-cart > a > span { background-position: 0 -439px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-comment > a > span { background-position: 0 -657px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-display > a > span { background-position: 0 -877px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-download > a > span{ background-position: 0 -1097px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-folder > a > span { background-position: 0 -1316px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-help > a > span { background-position: 0 -1534px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-home > a > span { background-position: 0 -1754px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-image > a > span { background-position: 0 -1972px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-info > a > span { background-position: 0 -2192px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-mail > a > span { background-position: 0 -2411px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-rss > a > span { background-position: 0 -2849px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-search > a > span { background-position: 0 -3068px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-cube > a > span { background-position: 0 -3287px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-settings > a > span { background-position: 0 -3507px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-star > a > span { background-position: 0 -3726px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-statistics > a > span { background-position: 0 -3945px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-user > a > span{ background-position: 0 -4164px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-upload > a > span { background-position: 0 -4384px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-selection > a > span { background-position: 0 -4602px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-heart > a > span { background-position: 0 -8985px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-refresh > a > span { background-position: 0 -4822px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-edit > a > span { background-position: 0 -5040px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-cloud > a > span { background-position: 0 -5259px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-location > a > span { background-position: 0 -5479px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-link > a > span { background-position: 0 -5697px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-online > a > span { background-position: 0 -2630px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-facebook > a > span { background-position: 0 -5916px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-twitter > a > span { background-position: 0 -6136px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-pinterest > a > span { background-position: 0 -6355px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-gplus > a > span { background-position: 0 -6574px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-flickr > a > span { background-position: 0 -6793px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-skype > a > span { background-position: 0 -7012px; } .menu-mainmenu.menu-iconmenu .jsn-icon-youtube > a > span { background-position: 0 -7232px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-wordpress > a > span { background-position: 0 -7451px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-joomla > a > span { background-position: 0 -7669px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-drupal > a > span { background-position: 0 -7788px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-tag > a > span { background-position: 0 -8107px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-restrict > a > span { background-position: 0 -8327px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-mobile > a > span { background-position: 0 -8546px; } .menu-mainmenu.menu-iconmenu > .jsn-icon-idea > a > span { background-position: 0 -8765px; } /* ---------- RTL ---------- */body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-article > a > span { background-position: right 0; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-calendar > a > span { background-position: right -220px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cart > a > span { background-position: right -439px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-comment > a > span { background-position: right -657px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-display > a > span { background-position: right -877px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-download > a > span{ background-position: right -1097px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-folder > a > span { background-position: right -1316px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-help > a > span { background-position: right -1534px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-home > a > span { background-position: right -1754px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-image > a > span { background-position: right -1972px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-info > a > span { background-position: right -2192px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-mail > a > span { background-position: right -2411px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-rss > a > span { background-position: right -2849px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-search > a > span { background-position: right -3068px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cube > a > span { background-position: right -3287px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-settings > a > span { background-position: right -3507px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-star > a > span { background-position: right -3726px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-statistics > a > span { background-position: right -3945px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-user > a > span{ background-position: right -4164px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-upload > a > span { background-position: right -4384px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-selection > a > span { background-position: right -4602px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-heart > a > span { background-position: right -8985px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-refresh > a > span { background-position: right -4822px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-edit > a > span { background-position: right -5040px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cloud > a > span { background-position: right -5259px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-location > a > span { background-position: right -5479px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-link > a > span { background-position: right -5697px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-online > a > span { background-position: right -2630px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-facebook > a > span { background-position: right -5916px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-twitter > a > span { background-position: right -6136px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-pinterest > a > span { background-position: right -6355px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-gplus > a > span { background-position: right -6574px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-flickr > a > span { background-position: right -6793px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-skype > a > span { background-position: right -7012px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu .jsn-icon-youtube > a > span { background-position: right -7232px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-wordpress > a > span { background-position: right -7451px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-joomla > a > span { background-position: right -7669px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-drupal > a > span { background-position: right -7788px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-tag > a > span { background-position: right -8107px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-restrict > a > span { background-position: right -8327px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-mobile > a > span { background-position: right -8546px; } body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-idea > a > span { background-position: right -8765px; } /* =============== SOCIAL ICONS =============== */ #jsn-social-icons { position: fixed !important; } /* =============== MOBILE SIDE MENU =============== */ body div.jsn-modulecontainer ul.menu-sidemenu ul { display: none; } body div.jsn-modulecontainer ul.menu-sidemenu li.parent > a { padding-right: 8px; background-image: none; } /* ===============  GO TOP LINK =============== */ #jsn-gotoplink { background-color: rgba(0,0,0,0.8); color: #FFF; } /* ===============  SITETOOLS =============== */#jsn-sitetoolspanel {display: block;right: 0;top: 5px;}.jsn-direction-rtl #jsn-sitetoolspanel {right: auto;left: 10px;}ul#jsn-sitetools-inline > li {padding: 0;margin: 0;background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-uni.png) center -1372px no-repeat;}ul#jsn-sitetools-inline {margin: 0 5px 0 0;}.jsn-direction-rtl ul#jsn-sitetools-inline {margin: 0;}ul#jsn-sitetools-menu > li,ul#jsn-sitetools-inline > li,ul#jsn-sitetools-menu > li:hover,ul#jsn-sitetools-inline > li:hover {background-color: transparent;box-shadow: none;}ul#jsn-sitetools-menu > li > a,ul#jsn-sitetools-inline > li > a {margin: 0;padding: 0;width: 36px;height: 36px;display: block;}ul#jsn-sitetools-menu li ul,ul#jsn-sitetools-inline li ul {right: 32px;z-index: 90;position: absolute;display: none;}ul#jsn-sitetools-inline li.active ul,ul#jsn-sitetools-menu li.active ul {display: block;margin: 0;height: auto;}ul#jsn-sitetools-menu ul li,ul#jsn-sitetools-inline ul li {height: auto;}ul#jsn-sitetools-menu ul li a,ul#jsn-sitetools-inline ul li a {display: inline-block;}/* -----  RTL Layout ----- */body.jsn-direction-rtl ul#jsn-sitetools-menu > li {position: inherit;}body.jsn-direction-rtl ul#jsn-sitetools-menu li ul,body.jsn-direction-rtl ul#jsn-sitetools-inline li ul {    left: 32px;    right: auto;} /* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */ /* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */ /* ----- STANDARD CONTACT LAYOUT - CONTACT FORM INPUT BOXES ----- */ .jsn-mailling-form { text-align: center; } .jsn-mailling-form p { text-align: left; } .jsn-mailling-form #contact_name, .jsn-mailling-form #contact_email, .jsn-mailling-form #contact_subject, .jsn-mailling-form #contact_text { width: 100%; padding: 3px 0; } /* =============== JOOMLA! EXTENSIONS - COM_SEARCH =============== */ div.com-search #searchForm .search-phrase { margin-left: 0; } div.com-search #searchForm .search-keyword label, div.com-search #searchForm .search-ordering label, div.com-search #searchForm .search-field-title { float: none; display: inline; text-align: left; padding-bottom: 3px; } div.com-search #searchForm .search-keyword-result .search-field-title { display: inline; } div.com-search #searchForm .search-range label, div.com-search #searchForm  .search-range .search-field-title { float: left; } body.jsn-direction-rtl div.com-search #searchForm .search-range label, body.jsn-direction-rtl div.com-search #searchForm .search-range .search-field-title { float: right; } /* =============== CUSTOM CSS =============== */ .promo-homepage-demo .jsn-modulecontent > div { text-align: center; } .promo-homepage-demo img.demo-image {margin: 20px auto !important;} .jsn-homepage .jsn-gallery > div { height: 342px !important; overflow: hidden; } }/************************************************************************************smartphone layout (320 - 480): everything is layout in single column*************************************************************************************/@media only screen and (max-width: 480px), (max-device-width: 480px) {#jsn-header,#jsn-body,#jsn-footer {margin-left: 0;}body.jsn-direction-rtl #jsn-header,body.jsn-direction-rtl #jsn-body,body.jsn-direction-rtl #jsn-footer {margin-right: 0;}#jsn-body {margin-top: 0;}#jsn-logo #jsn-logo-mobile {display: block;}#jsn-logo #jsn-logo-mobile + #jsn-logo-desktop {display: none;}#jsn-logo {float: none;text-align: center;width: 100%;margin: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}#jsn-pos-topbar .jsn-modulecontainer,#jsn-pos-top div.jsn-modulecontainer {float: none;}#jsn-pos-top,#jsn-pos-topbar {text-align: center;}#jsn-menu {width: 100% !important;background-color: #222;position: relative;}#jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a {padding-left: 15px;}#jsn-desktopswitch {top: 0;right: 0;padding: 14px;}body.jsn-direction-rtl #jsn-desktopswitch {right: auto;left: 0;}#jsn-desktopswitch a,ul#jsn-sitetools-menu > li,ul#jsn-sitetools-inline > li {background-image: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-uni-white.png);}#jsn-menu.jsn-menu-sticky #jsn-desktopswitch,#jsn-menu.jsn-menu-sticky #jsn-sitetoolspanel {display: block;}#jsn-sitetoolspanel {top: 0;right: 36px;}body.jsn-direction-rtl #jsn-sitetoolspanel {right: auto;left: 36px;}ul#jsn-sitetools-inline ul {margin: 0;}ul#jsn-sitetools-inline ul li {padding: 0;}ul#jsn-sitetools-menu li,ul#jsn-sitetools-inline li {background-position: center -3490px;}ul#jsn-sitetools-menu > li > a,ul#jsn-sitetools-inline > li > a {width: 48px;height: 48px;}ul#jsn-sitetools-menu ul li a,ul#jsn-sitetools-inline ul li a {margin: 17px 4px;}body.jsn-direction-rtl ul#jsn-sitetools-menu ul li a,body.jsn-direction-rtl ul#jsn-sitetools-inline ul li a {float: right;margin: 17px 6px;}#jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle {width: 60px;}#jsn-menu #jsn-pos-toolbar {float: none;position: absolute;top: 0;left: 60px;width: auto;}body.jsn-direction-rtl #jsn-menu #jsn-pos-toolbar {right: 60px;left: auto;}#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner {box-shadow: none;border: none;}#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner h3.jsn-moduletitle {border: none;padding: 14px 5px;}#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner h3.jsn-moduletitle span {max-width: 100%;}#jsn-menu div.display-dropdown[class*="jsn-icon-"] h3.jsn-moduletitle span.jsn-moduleicon {padding-top: 0;}#jsn-menu div.display-dropdown[class*="jsn-icon-"] h3.jsn-moduletitle > span {background: none;}#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontent {display: none;margin: 0;top: auto;}#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner:hover .jsn-modulecontent {margin: 0;}#jsn-menu div.jsn-modulecontainer[class*="display-"] .jsn-modulecontent:before {display: none;}#jsn-promo #jsn-pos-promo-left,#jsn-promo #jsn-pos-promo-right,#jsn-leftsidecontent,#jsn-rightsidecontent,#jsn-pos-footer,#jsn-pos-bottom {margin: 0;padding: 0 10px;text-align: left;}#jsn-promo.jsn-haspromoright #jsn-pos-promo-left,#jsn-promo.jsn-haspromoleft #jsn-pos-promo-right {width: 100%;}#jsn-pos-promo-left div.jsn-modulecontainer,#jsn-pos-promo-right div.jsn-modulecontainer {padding: 10px 0;}#jsn-headerright {float: none;padding: 0 10px;text-align: center;}#jsn-headerright #jsn-pos-top {float: none;}#jsn-headerright #jsn-pos-top div.jsn-modulecontainer {float: none;margin: 20px 0;}div#jsn-pos-breadcrumbs.display-tablet,div.jsn-modulecontainer.display-tablet {display: none;}div[id*="jsn-pos-user"] div.jsn-modulecontainer div.jsn-modulecontainer_inner,div.jsn-modulescontainer div.jsn-modulecontainer_inner,#jsn-pos-user-top div.jsn-modulecontainer_inner,#jsn-pos-user-bottom div.jsn-modulecontainer_inner {margin: 10px 0 !important;}div.jsn-horizontallayout div.jsn-modulecontainer:first-child {margin-top: 0;}div.jsn-modulescontainer {padding: 0;}div.jsn-modulescontainer div.jsn-modulecontainer {padding: 1px 0;margin-top: 0;}div.jsn-modulescontainer div[class*="box-"],div.jsn-modulescontainer div[class*="solid-"],div.jsn-modulescontainer div[class*="richbox-"],div.jsn-modulescontainer div[class*="lightbox-"],div.jsn-modulescontainer2 div.jsn-modulecontainer {width: 100%;}#jsn-pos-content-top,#jsn-pos-content-bottom,#jsn-usermodules3 {padding: 10px;}div#jsn-content.jsn-hasright #jsn-content_inner2,div#jsn-content.jsn-hasleft #jsn-content_inner {background: none;}#jsn-maincontent_inner {margin: 0 !important;}#jsn-leftsidecontent_inner,#jsn-pos-innerleft_inner,#jsn-rightsidecontent_inner,#jsn-pos-innerright_inner {padding: 10px 0 !important;}div.jsn-modulescontainer2 div.jsn-modulecontainer,div.jsn-modulescontainer3 div.jsn-modulecontainer,div.jsn-modulescontainer4 div.jsn-modulecontainer,div.jsn-modulescontainer5 div.jsn-modulecontainer,div.jsn-modulescontainer6 div.jsn-modulecontainer,#jsn-pos-user1,#jsn-pos-user2,#jsn-pos-user3,#jsn-pos-user4,#jsn-pos-user5,#jsn-pos-user6,#jsn-pos-user7,#jsn-pos-footer,#jsn-pos-bottom {float: none !important;width: 100% !important;}#jsn-usermodules3 {margin-top: 0;}.text-tip,.text-info,.text-alert,.text-audio,.text-video,.text-comment,.text-download,.text-attachment {padding-left: 4em;}body.jsn-direction-rtl .text-tip,body.jsn-direction-rtl .text-info,body.jsn-direction-rtl .text-alert,body.jsn-direction-rtl .text-audio,body.jsn-direction-rtl .text-video,body.jsn-direction-rtl .text-comment,body.jsn-direction-rtl .text-download,body.jsn-direction-rtl .text-attachment {padding-right: 4em;}div[class*="grid-layout"] div.grid-col {width: 100%;}div.grid-layout div.grid-col div.grid-col_inner {margin-right: 0;}body.jsn-direction-rtl div.grid-layout div.grid-col div.grid-col_inner {margin-left: 0;}#jsn-footer-inner1 {background-position: -450px bottom;}#jsn-social-icons {position: static !important;width: auto !important;padding: 10px !important;height: 36px;}#jsn-social-icons ul {margin-bottom: 0 !important;}#jsn-social-icons ul li {float: left;margin-bottom: 0 !important;margin-right: 15px;}body.jsn-direction-rtl #jsn-social-icons {float: right;}body.jsn-direction-rtl #jsn-social-icons ul li {float: right;margin-right: 0;margin-left: 15px;}body.jsn-direction-rtl  #jsn-social-icons ul li a {overflow: hidden;}#jsn-gotoplink {bottom: 10px;right: 10px;}body.jsn-direction-rtl #jsn-gotoplink {bottom: 10px;left: 10px;right: auto;}/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== *//* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== *//* ----- ARTICLE DETAILS ----- */p, pre, blockquote, form, dl, ul, ol, fieldset, address, table {word-wrap: break-word;}/* ----- SECTION / CATEGORY BLOG LAYOUT ----- *//* ARTICLE COLUMN CONTAINER */.jsn-articlecols {float: none;width: 100% !important;}.jsn-articlecols .jsn-article {padding: 0;}/* =============== JOOMLA! EXTENSIONS - COM_NEWSFEED =============== */.com-newsfeed table.jsn-infotable td.jsn-table-column-links,.com-newsfeed legend.hidelabeltxt {display: none;}.com-newsfeed div.display-limit {float: right;}.com-newsfeed table.category {width: 100%;border: none;border-collapse: collapse;}.com-newsfeed table.category thead th {padding: 10px;}.com-newsfeed table.category thead .item-title {text-align: left;}.com-newsfeed table.category thead {background-color: #999;text-shadow: 0 1px 0 rgba(0,0,0,0.5) ;}.com-newsfeed table.category thead th a {color: #FFF;}.com-newsfeed table.category .item-num-art {text-align: center;}.com-newsfeed table.category .item-link {display: none;}.com-newsfeed table.category tbody td {padding: 10px 5px;border-bottom: 1px solid #CCC;}.jsn-joomla-30 .com-newsfeed ul.category li {float: left;width: 100%;}/* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */.com-contact table.jsn-infotable td.jsn-table-column-country,.com-contact table.jsn-infotable td.jsn-table-column-state,.com-contact table.jsn-infotable td.jsn-table-column-suburb,.com-contact table.jsn-infotable td.jsn-table-column-position {display: none;}/* =============== JOOMLA! EXTENSIONS - COM_USER =============== *//* ----- USER FORM LAYOUT ----- */div.com-user div.default-login {width: 90%;}div.com-user div.default-login .login-fields input {display: block;width: 95%;}/* =============== CUSTOM CSS =============== */ .jsn-homepage .jsn-gallery .jsn-themegrid-image, .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img { width: 110px !important; height: 80px !important; } .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img { left: 0 !important; } .infor-promo .image-left { width: 90px; } .infor-promo .infor-promo-text { padding: 0 !important; } .jsn-direction-rtl .infor-promo { direction: rtl; text-align: right; }}/************************************************************************************smartphone layout (320 - 480): Lanscape Orientaion*************************************************************************************/@media only screen and (max-device-width: 480px) and (orientation:landscape) {body {font-size: 10px !important;}}/************************************************************************************ tablet wide layout (481 - 960): arrange modules in 3 columns and 1 side bar*************************************************************************************/@media only screen and (min-width: 481px) and (max-width: 960px), (min-device-width: 481px) and (max-device-width: 960px) {#jsn-content-top.jsn-haspromoleft.jsn-haspromoright #jsn-promo #jsn-pos-promo-left,#jsn-content-top.jsn-haspromoleft.jsn-haspromoright #jsn-promo #jsn-pos-promo-right,#jsn-content.jsn-hasleft.jsn-hasright #jsn-leftsidecontent,#jsn-content.jsn-hasleft.jsn-hasright #jsn-rightsidecontent,#jsn-content.jsn-hasinnerright #jsn-pos-innerleft,#jsn-content.jsn-hasinnerleft #jsn-pos-innerright {width: 49.95%;float: left;}#jsn-pos-promo,#jsn-pos-promo-left,#jsn-pos-promo-right,#jsn-maincontent,#jsn-leftsidecontent,#jsn-rightsidecontent,#jsn-pos-innerleft,#jsn-pos-innerright {margin: 0;}#jsn-leftsidecontent div.jsn-modulecontainer,#jsn-rightsidecontent div.jsn-modulecontainer {margin-top: 30px;}#jsn-leftsidecontent div.jsn-modulecontainer:first-child,#jsn-rightsidecontent div.jsn-modulecontainer:first-child {margin-top: 0;}div#jsn-pos-breadcrumbs.display-smartphone,div.jsn-modulecontainer.display-smartphone {display: none;}div#jsn-pos-breadcrumbs.display-tablet,div.jsn-modulecontainer.display-tablet {display: block;}#jsn-leftsidecontent_inner,#jsn-rightsidecontent_inner {margin: 15px 10px !important;}#jsn-pos-innerleft > div,#jsn-pos-innerright > div {padding: 15px;}div.grid-layout4 div.grid-col,div.grid-layout5 div.grid-col,div.grid-layout6 div.grid-col {width: 33.3%;}div.jsn-modulescontainer3 #jsn-pos-user5 div.jsn-modulecontainer,div.jsn-modulescontainer3 #jsn-pos-user6 div.jsn-modulecontainer,div.jsn-modulescontainer3 #jsn-pos-user7 div.jsn-modulecontainer {width: 100%;}#jsn-pos-content-top .span2,#jsn-pos-content-top .span3,#jsn-pos-content-top .span4,#jsn-pos-content-bottom .span2,#jsn-pos-content-bottom .span3,#jsn-pos-content-bottom .span4,#jsn-pos-user-top .span2,#jsn-pos-user-top .span3,#jsn-pos-user-top .span4,#jsn-pos-user-bottom .span2,#jsn-pos-user-bottom .span3,#jsn-pos-user-bottom .span4,#jsn-usermodules3 .span2,#jsn-usermodules3 .span3,#jsn-usermodules3 .span4,#jsn-pos-mainbody-top .span2,#jsn-pos-mainbody-top .span3,#jsn-pos-mainbody-top .span4,#jsn-pos-mainbody-bottom .span2,#jsn-pos-mainbody-bottom .span3,#jsn-pos-mainbody-bottom .span4 {width: 31.491712707182323%;float: left;}#jsn-pos-content-top .span2:nth-child(4),#jsn-pos-content-top .span3:nth-child(4),#jsn-pos-content-bottom .span2:nth-child(4),#jsn-pos-content-bottom .span3:nth-child(4),#jsn-pos-user-top .span2:nth-child(4),#jsn-pos-user-top .span3:nth-child(4),#jsn-pos-user-bototm .span2:nth-child(4),#jsn-pos-user-bottom .span3:nth-child(4),#jsn-usermodules3 .span2:nth-child(4),#jsn-usermodules3 .span3:nth-child(4),#jsn-pos-mainbody-top .span2:nth-child(4),#jsn-pos-mainbody-top .span3:nth-child(4),#jsn-pos-mainbody-bottom .span2:nth-child(4),#jsn-pos-mainbody-bottom .span3:nth-child(4) {margin-left: 0;}#jsn-content.jsn-hasright #jsn-maincontent_inner,#jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order1 #jsn-maincontent_inner,#jsn-content.jsn-hasleft #jsn-maincontent_inner,#jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order3 #jsn-maincontent_inner,#jsn-content.jsn-hasright .order2 #jsn-maincontent_inner,#jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order3 #jsn-maincontent_inner {margin-left: 0;margin-right: 0;}}/************************************************************************************ tablet narrow layout (481 - 767): arrange modules in 2 columns and 1 side bar*************************************************************************************/@media only screen and (min-width: 481px) and (max-width: 768px), (min-device-width: 481px) and (max-device-width: 768px) and (orientation:portrait) {#jsn-pos-content-top [class*="span"],#jsn-pos-content-bottom [class*="span"],#jsn-pos-user-top [class*="span"],#jsn-pos-user-bottom [class*="span"],#jsn-pos-mainbody-top [class*="span"],#jsn-pos-mainbody-bottom [class*="span"],#jsn-usermodules1 [class*="span"],#jsn-usermodules2 [class*="span"],#jsn-usermodules3 [class*="span"],#jsn-footermodules [class*="span"] {width: 48.93617021276595%;margin-left: 0;float: left;}.jsn-horizontallayout .span12,#jsn-usermodules1 .span12,#jsn-usermodules2 .span12,#jsn-usermodules3 .span12 {width: 100% !important;}#jsn-pos-content-top [class*="span"]:nth-child(2),#jsn-pos-content-top [class*="span"]:nth-child(4),#jsn-pos-content-top [class*="span"]:nth-child(6),#jsn-pos-content-bottom [class*="span"]:nth-child(2),#jsn-pos-content-bottom [class*="span"]:nth-child(4),#jsn-pos-content-bottom [class*="span"]:nth-child(6),#jsn-pos-user-top [class*="span"]:nth-child(2),#jsn-pos-user-top [class*="span"]:nth-child(4),#jsn-pos-user-top [class*="span"]:nth-child(6),#jsn-pos-user-bottom [class*="span"]:nth-child(2),#jsn-pos-user-bottom [class*="span"]:nth-child(4),#jsn-pos-user-bottom [class*="span"]:nth-child(6),#jsn-pos-mainbody-top [class*="span"]:nth-child(2),#jsn-pos-mainbody-top [class*="span"]:nth-child(4),#jsn-pos-mainbody-top [class*="span"]:nth-child(6),#jsn-pos-mainbody-bottom [class*="span"]:nth-child(2),#jsn-pos-mainbody-bottom [class*="span"]:nth-child(4),#jsn-pos-mainbody-bottom [class*="span"]:nth-child(6),#jsn-usermodules1 [class*="span"]:nth-child(2),#jsn-usermodules2 [class*="span"]:nth-child(2),#jsn-usermodules3 [class*="span"]:nth-child(2),#jsn-footermodules [class*="span"]:nth-child(2) {margin-left: 2.127659574468085%;}#jsn-usermodules3.jsn-modulescontainer3 .span4:last-child,#jsn-pos-content-bottom.jsn-modulescontainer3 .span4:last-child {margin-top: 20px;}/* =============== CUSTOM CSS =============== */.jsn-homepage .jsn-gallery > div {height: 290px !important;} .jsn-homepage .jsn-gallery .jsn-themegrid-image, .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img { width: 158px !important; height: 110px !important; } .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img { left: 0 !important; }}
+/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//************************************************************************************ mobile layout (240 - 1023): common settings for both smartphone and tablet*************************************************************************************/
+@media only screen and (max-width: 960px),(max-device-width: 960px) {
+    body {
+        font-size: 14px !important;
+        -webkit-text-size-adjust: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+    #jsn-master #jsn-page {
+        width: auto;
+        min-width: inherit;
+        position: relative;
+    }
+
+    #jsn-body {
+        margin-top: -48px;
+    }
+
+    div[id*="jsn-pos-stick-left"], div[id*="jsn-pos-stick-right"] {
+        display: none;
+        height: 0;
+    }
+
+    #jsn-content-bottom {
+        margin-top: 0;
+    }
+
+    #jsn-menu div.jsn-modulecontainer {
+        margin-bottom: 0;
+    }
+
+    #jsn-menu-inner {
+        text-align: left;
+    }
+
+    #jsn-promo {
+        padding-top: 0;
+    }
+
+    #jsn-promo #jsn-pos-promo {
+        float: none;
+        left: auto;
+        width: 100%;
+    }
+
+    #jsn-promo #jsn-pos-promo-left, #jsn-promo #jsn-pos-promo-right {
+        left: auto;
+        width: 100%;
+    }
+
+    #jsn-promo.jsn-haspromoright #jsn-pos-promo-left, #jsn-promo.jsn-haspromoleft #jsn-pos-promo-right {
+        width: 49.99%;
+    }
+
+    #jsn-pos-promo-left div.jsn-modulecontainer {
+        padding-right: 10px;
+    }
+
+    #jsn-pos-promo-right div.jsn-modulecontainer {
+        padding-left: 10px;
+    }
+
+    #jsn-content #jsn-maincontent {
+        float: none;
+        left: auto;
+        width: 100%;
+        padding: 0 10px !important;
+        margin-bottom: 10px;
+    }
+
+    #jsn-content #jsn-leftsidecontent {
+        float: none;
+        left: auto;
+        width: 100%;
+    }
+
+    #jsn-content #jsn-rightsidecontent {
+        float: none;
+        width: 100%;
+    }
+
+    #jsn-content_inner, #jsn-content_inner2 {
+        background: none;
+    }
+
+    #jsn-content #jsn-centercol, #jsn-content #jsn-pos-innerleft, #jsn-content #jsn-pos-innerright {
+        width: 100%;
+        left: auto;
+        margin: 0;
+    }
+
+    [id*="jsn-content_inner"], [id*="jsn-maincontent_inner"] {
+        left: auto;
+        right: auto;
+    }
+
+    div.jsn-modulescontainer4.jsn-horizontallayout div.jsn-modulecontainer {
+        width: 49.9%;
+    }
+
+    div.jsn-modulecontainer.display-mobile {
+        display: block;
+    }
+
+    div.jsn-modulecontainer.display-desktop {
+        display: none;
+    }
+
+    /* =============== LAYOUT CHANGING =============== */
+    #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent #jsn-maincontent_inner, #jsn-content.jsn-hasright #jsn-maincontent_inner, #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order1 #jsn-maincontent_inner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* =============== MODULE STYLES =============== */
+    #jsn-leftsidecontent_inner, #jsn-rightsidecontent_inner, #jsn-pos-innerleft_inner, #jsn-pos-innerright_inner {
+        padding: 10px 0;
+    }
+
+    #jsn-content.jsn-hasright #jsn-leftsidecontent_inner, #jsn-content.jsn-hasinnerright #jsn-pos-innerleft_inner {
+        padding: 10px 10px 10px 0;
+    }
+
+    #jsn-content.jsn-hasleft #jsn-rightsidecontent_inner, #jsn-content.jsn-hasinnerleft #jsn-pos-innerright_inner {
+        padding: 10px 0 10px 10px;
+    }
+
+    #jsn-content-top div.jsn-horizontallayout div[class*=solid-], #jsn-content-bottom div.jsn-horizontallayout div[class*=box-], #jsn-content-bottom div.jsn-horizontallayout div[class*=solid-], #jsn-content {
+        margin-top: 0;
+    }
+
+    h3.jsn-moduletitle {
+        font-size: 1.2em;
+    }
+
+    /* =============== MAIN MENU =============== */
+    #jsn-menu {
+        float: none;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    #jsn-pos-mainmenu {
+        position: relative;
+    }
+
+    #jsn-menu.jsn-menu-sticky {
+        position: fixed;
+        top: 0;
+        left: 0 !important;
+    }
+
+    #jsn-menu.jsn-menu-sticky #jsn-desktopswitch, #jsn-menu.jsn-menu-sticky #jsn-mobileswitch, #jsn-menu.jsn-menu-sticky #jsn-sitetoolspanel {
+        display: none;
+    }
+
+    /* ----- MAIN TOGGLE ----- */
+    #jsn-pos-mainmenu .jsn-menu-toggle {
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    #jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle {
+        width: 80px;
+        height: 48px;
+        text-indent: -999em;
+        background: #222 url(menu-toggle.png) center center no-repeat;
+        background-size: 30px auto;
+    }
+
+    body.jsn-direction-rtl #jsn-pos-mainmenu .jsn-menu-toggle {
+        float: right;
+        display: block;
+        clear: both;
+        overflow: hidden;
+        text-indent: 999em;
+    }
+
+    #jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle.active {
+        background-color: #000;
+    }
+
+    #jsn-pos-mainmenu ul.jsn-menu-mobile {
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #jsn-pos-mainmenu .jsn-menu-toggle + ul {
+        display: none;
+    }
+
+    #jsn-pos-mainmenu .jsn-menu-toggle + ul.jsn-menu-mobile {
+        display: block;
+    }
+
+    #jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner:hover h3.jsn-moduletitle {
+        background: none;
+    }
+
+    #jsn-menu .jsn-modulecontainer.display-dropdown.jsn-dropdown-active .jsn-modulecontainer_inner h3.jsn-moduletitle {
+        background: #4A4A4A;
+        color: #FFFFFF;
+    }
+
+    #jsn-menu div.display-dropdown.jsn-modulecontainer .jsn-modulecontainer_inner .jsn-modulecontent {
+        visibility: visible;
+        display: none;
+    }
+
+    #jsn-menu div.display-dropdown.jsn-dropdown-active.jsn-modulecontainer .jsn-modulecontainer_inner .jsn-modulecontent {
+        display: block;
+    }
+
+    body.jsn-direction-rtl #jsn-menu #jsn-pos-mainmenu ul.jsn-menu-mobile {
+        right: 0;
+        left: auto;
+        top: 48px;
+    }
+
+    #jsn-menu #jsn-pos-toolbar {
+        width: 80px;
+        float: left;
+    }
+
+    body.jsn-direction-rtl #jsn-menu #jsn-pos-toolbar {
+        float: right;
+    }
+
+    body.jsn-direction-rtl #jsn-menu .jsn-menu-toggle + ul {
+        right: 0;
+    }
+
+    /* ----- LEVEL 1 ----- */
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li {
+        float: none;
+        width: auto;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li {
+        border-top: 1px solid #252525;
+        border-bottom: 1px solid #000;
+        border-right: none;
+        border-left: none;
+        margin: 0;
+        max-width: inherit;
+    }
+
+    div.jsn-modulecontainer ul.menu-mainmenu > li:before, #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.first {
+        border-top: none;
+        display: inline;
+    }
+
+    div.jsn-modulecontainer ul.menu-mainmenu > li {
+        text-align: left;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a {
+        padding-left: 25px;
+    }
+
+    body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a {
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menudescription, #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a:hover {
+        max-width: 100%;
+        border: none;
+        background: #111;
+        color: #ddd;
+        font-size: 1.1em;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle, div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menudescription {
+        background: transparent;
+    }
+
+    body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a, body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a:hover, body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu > li > a > span > span.jsn-menutitle {
+        text-align: right;
+    }
+
+    body.jsn-specialfont.jsn-textstyle-business #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle {
+        font-size: 1.1em !important;
+    }
+
+    body.jsn-specialfont.jsn-textstyle-personal #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle {
+        font-size: 1.5em !important;
+    }
+
+    body.jsn-specialfont.jsn-textstyle-news #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a span.jsn-menutitle {
+        font-size: 1.2em !important;
+    }
+
+    /* ----- ACTIVE STATE COLOR ----- */
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+        color: #FFF;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+    }
+
+    body.jsn-color-blue #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #2491ca;
+    }
+
+    body.jsn-color-green #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #a8b729;
+    }
+
+    body.jsn-color-red #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #e56655;
+    }
+
+    body.jsn-color-violet #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #c457b3;
+    }
+
+    body.jsn-color-grey #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #444;
+    }
+
+    body.jsn-color-orange #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+        background-color: #e19a35;
+    }
+
+    body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu > li {
+        text-align: right;
+    }
+
+    /* ----- LEVEL 2 ----- */
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu.jsn-menu-mobile ul {
+        width: auto;
+        position: static !important;
+        background: #222;
+        visibility: visible;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border: none;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > ul:before {
+        display: none;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > .jsn-menu-mobile {
+        padding: 5px 15px;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul li {
+        border: none;
+        background: none;
+    }
+
+    #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li a {
+        border: none;
+        background: none;
+        color: #ccc;
+        padding: 8px 0 8px 20px;
+        background: url(icons-base.png) left -754px no-repeat;
+        box-shadow: none !important;
+    }
+
+    #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu.menu-iconmenu ul [class*="jsn-icon-"] > a, #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu.menu-iconmenu ul [class*="jsn-color-"] > a {
+        background-image: none;
+        padding-left: 0;
+    }
+
+    #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li a {
+        text-align: left;
+    }
+
+    body.jsn-direction-rtl #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li a {
+        text-align: right;
+    }
+
+    body.jsn-direction-rtl #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li a, body.jsn-direction-rtl #jsn-menu [id*="jsn-pos-"] div.jsn-modulecontainer ul.menu-mainmenu ul li.parent > a {
+        padding-left: 0;
+        padding-right: 20px;
+        background-position: right -754px;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle {
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.08) url(icon-toggle-expand.png) center center no-repeat;
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#4c000000', EndColorStr='#4c000000');
+        right: 0;
+    }
+
+    body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle {
+        left: 0;
+        right: auto;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu li span.jsn-menu-toggle.active {
+        background-image: url(icon-toggle-collapse.png);
+    }
+
+    /* ----- LEVEL 3 ----- */
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul ul li {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    body.jsn-direction-rtl #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu ul ul li {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    /* ----- ICONS MENU ----- */
+    ul.menu-mainmenu.menu-iconmenu > li > a > span {
+        padding: 0 0 0 24px;
+    }
+
+    body.jsn-direction-rtl ul.menu-mainmenu.menu-iconmenu > li > a > span {
+        padding: 0 24px 0 0;
+        text-align: right;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-article > a > span {
+        background-position: 0 0;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-calendar > a > span {
+        background-position: 0 -220px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-cart > a > span {
+        background-position: 0 -439px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-comment > a > span {
+        background-position: 0 -657px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-display > a > span {
+        background-position: 0 -877px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-download > a > span {
+        background-position: 0 -1097px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-folder > a > span {
+        background-position: 0 -1316px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-help > a > span {
+        background-position: 0 -1534px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-home > a > span {
+        background-position: 0 -1754px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-image > a > span {
+        background-position: 0 -1972px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-info > a > span {
+        background-position: 0 -2192px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-mail > a > span {
+        background-position: 0 -2411px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-rss > a > span {
+        background-position: 0 -2849px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-search > a > span {
+        background-position: 0 -3068px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-cube > a > span {
+        background-position: 0 -3287px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-settings > a > span {
+        background-position: 0 -3507px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-star > a > span {
+        background-position: 0 -3726px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-statistics > a > span {
+        background-position: 0 -3945px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-user > a > span {
+        background-position: 0 -4164px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-upload > a > span {
+        background-position: 0 -4384px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-selection > a > span {
+        background-position: 0 -4602px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-heart > a > span {
+        background-position: 0 -8985px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-refresh > a > span {
+        background-position: 0 -4822px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-edit > a > span {
+        background-position: 0 -5040px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-cloud > a > span {
+        background-position: 0 -5259px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-location > a > span {
+        background-position: 0 -5479px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-link > a > span {
+        background-position: 0 -5697px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-online > a > span {
+        background-position: 0 -2630px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-facebook > a > span {
+        background-position: 0 -5916px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-twitter > a > span {
+        background-position: 0 -6136px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-pinterest > a > span {
+        background-position: 0 -6355px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-gplus > a > span {
+        background-position: 0 -6574px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-flickr > a > span {
+        background-position: 0 -6793px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-skype > a > span {
+        background-position: 0 -7012px;
+    }
+
+    .menu-mainmenu.menu-iconmenu .jsn-icon-youtube > a > span {
+        background-position: 0 -7232px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-wordpress > a > span {
+        background-position: 0 -7451px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-joomla > a > span {
+        background-position: 0 -7669px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-drupal > a > span {
+        background-position: 0 -7788px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-tag > a > span {
+        background-position: 0 -8107px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-restrict > a > span {
+        background-position: 0 -8327px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-mobile > a > span {
+        background-position: 0 -8546px;
+    }
+
+    .menu-mainmenu.menu-iconmenu > .jsn-icon-idea > a > span {
+        background-position: 0 -8765px;
+    }
+
+    /* ---------- RTL ---------- */
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-article > a > span {
+        background-position: right 0;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-calendar > a > span {
+        background-position: right -220px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cart > a > span {
+        background-position: right -439px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-comment > a > span {
+        background-position: right -657px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-display > a > span {
+        background-position: right -877px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-download > a > span {
+        background-position: right -1097px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-folder > a > span {
+        background-position: right -1316px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-help > a > span {
+        background-position: right -1534px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-home > a > span {
+        background-position: right -1754px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-image > a > span {
+        background-position: right -1972px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-info > a > span {
+        background-position: right -2192px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-mail > a > span {
+        background-position: right -2411px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-rss > a > span {
+        background-position: right -2849px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-search > a > span {
+        background-position: right -3068px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cube > a > span {
+        background-position: right -3287px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-settings > a > span {
+        background-position: right -3507px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-star > a > span {
+        background-position: right -3726px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-statistics > a > span {
+        background-position: right -3945px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-user > a > span {
+        background-position: right -4164px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-upload > a > span {
+        background-position: right -4384px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-selection > a > span {
+        background-position: right -4602px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-heart > a > span {
+        background-position: right -8985px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-refresh > a > span {
+        background-position: right -4822px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-edit > a > span {
+        background-position: right -5040px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-cloud > a > span {
+        background-position: right -5259px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-location > a > span {
+        background-position: right -5479px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-link > a > span {
+        background-position: right -5697px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-online > a > span {
+        background-position: right -2630px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-facebook > a > span {
+        background-position: right -5916px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-twitter > a > span {
+        background-position: right -6136px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-pinterest > a > span {
+        background-position: right -6355px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-gplus > a > span {
+        background-position: right -6574px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-flickr > a > span {
+        background-position: right -6793px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-skype > a > span {
+        background-position: right -7012px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu .jsn-icon-youtube > a > span {
+        background-position: right -7232px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-wordpress > a > span {
+        background-position: right -7451px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-joomla > a > span {
+        background-position: right -7669px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-drupal > a > span {
+        background-position: right -7788px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-tag > a > span {
+        background-position: right -8107px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-restrict > a > span {
+        background-position: right -8327px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-mobile > a > span {
+        background-position: right -8546px;
+    }
+
+    body.jsn-direction-rtl .menu-mainmenu.menu-iconmenu > .jsn-icon-idea > a > span {
+        background-position: right -8765px;
+    }
+
+    /* =============== SOCIAL ICONS =============== */
+    #jsn-social-icons {
+        position: fixed !important;
+    }
+
+    /* =============== MOBILE SIDE MENU =============== */
+    body div.jsn-modulecontainer ul.menu-sidemenu ul {
+        display: none;
+    }
+
+    body div.jsn-modulecontainer ul.menu-sidemenu li.parent > a {
+        padding-right: 8px;
+        background-image: none;
+    }
+
+    /* ===============  GO TOP LINK =============== */
+    #jsn-gotoplink {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #FFF;
+    }
+
+    /* ===============  SITETOOLS =============== */
+    #jsn-sitetoolspanel {
+        display: block;
+        right: 0;
+        top: 5px;
+    }
+
+    .jsn-direction-rtl #jsn-sitetoolspanel {
+        right: auto;
+        left: 10px;
+    }
+
+    ul#jsn-sitetools-inline > li {
+        padding: 0;
+        margin: 0;
+        background: url(icons-uni.png) center -1372px no-repeat;
+    }
+
+    ul#jsn-sitetools-inline {
+        margin: 0 5px 0 0;
+    }
+
+    .jsn-direction-rtl ul#jsn-sitetools-inline {
+        margin: 0;
+    }
+
+    ul#jsn-sitetools-menu > li, ul#jsn-sitetools-inline > li, ul#jsn-sitetools-menu > li:hover, ul#jsn-sitetools-inline > li:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    ul#jsn-sitetools-menu > li > a, ul#jsn-sitetools-inline > li > a {
+        margin: 0;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        display: block;
+    }
+
+    ul#jsn-sitetools-menu li ul, ul#jsn-sitetools-inline li ul {
+        right: 32px;
+        z-index: 90;
+        position: absolute;
+        display: none;
+    }
+
+    ul#jsn-sitetools-inline li.active ul, ul#jsn-sitetools-menu li.active ul {
+        display: block;
+        margin: 0;
+        height: auto;
+    }
+
+    ul#jsn-sitetools-menu ul li, ul#jsn-sitetools-inline ul li {
+        height: auto;
+    }
+
+    ul#jsn-sitetools-menu ul li a, ul#jsn-sitetools-inline ul li a {
+        display: inline-block;
+    }
+
+    /* -----  RTL Layout ----- */
+    body.jsn-direction-rtl ul#jsn-sitetools-menu > li {
+        position: inherit;
+    }
+
+    body.jsn-direction-rtl ul#jsn-sitetools-menu li ul, body.jsn-direction-rtl ul#jsn-sitetools-inline li ul {
+        left: 32px;
+        right: auto;
+    }
+
+    /* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+    /* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */
+    /* ----- STANDARD CONTACT LAYOUT - CONTACT FORM INPUT BOXES ----- */
+    .jsn-mailling-form {
+        text-align: center;
+    }
+
+    .jsn-mailling-form p {
+        text-align: left;
+    }
+
+    .jsn-mailling-form #contact_name, .jsn-mailling-form #contact_email, .jsn-mailling-form #contact_subject, .jsn-mailling-form #contact_text {
+        width: 100%;
+        padding: 3px 0;
+    }
+
+    /* =============== JOOMLA! EXTENSIONS - COM_SEARCH =============== */
+    div.com-search #searchForm .search-phrase {
+        margin-left: 0;
+    }
+
+    div.com-search #searchForm .search-keyword label, div.com-search #searchForm .search-ordering label, div.com-search #searchForm .search-field-title {
+        float: none;
+        display: inline;
+        text-align: left;
+        padding-bottom: 3px;
+    }
+
+    div.com-search #searchForm .search-keyword-result .search-field-title {
+        display: inline;
+    }
+
+    div.com-search #searchForm .search-range label, div.com-search #searchForm .search-range .search-field-title {
+        float: left;
+    }
+
+    body.jsn-direction-rtl div.com-search #searchForm .search-range label, body.jsn-direction-rtl div.com-search #searchForm .search-range .search-field-title {
+        float: right;
+    }
+
+    /* =============== CUSTOM CSS =============== */
+    .promo-homepage-demo .jsn-modulecontent > div {
+        text-align: center;
+    }
+
+    .promo-homepage-demo img.demo-image {
+        margin: 20px auto !important;
+    }
+
+    .jsn-homepage .jsn-gallery > div {
+        height: 342px !important;
+        overflow: hidden;
+    }
+}
+
+/************************************************************************************smartphone layout (320 - 480): everything is layout in single column*************************************************************************************/
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+    #jsn-header, #jsn-body, #jsn-footer {
+        margin-left: 0;
+    }
+
+    body.jsn-direction-rtl #jsn-header, body.jsn-direction-rtl #jsn-body, body.jsn-direction-rtl #jsn-footer {
+        margin-right: 0;
+    }
+
+    #jsn-body {
+        margin-top: 0;
+    }
+
+    #jsn-logo #jsn-logo-mobile {
+        display: block;
+    }
+
+    #jsn-logo #jsn-logo-mobile + #jsn-logo-desktop {
+        display: none;
+    }
+
+    #jsn-logo {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #jsn-pos-topbar .jsn-modulecontainer, #jsn-pos-top div.jsn-modulecontainer {
+        float: none;
+    }
+
+    #jsn-pos-top, #jsn-pos-topbar {
+        text-align: center;
+    }
+
+    #jsn-menu {
+        width: 100% !important;
+        background-color: #222;
+        position: relative;
+    }
+
+    #jsn-menu div.jsn-modulecontainer ul.menu-mainmenu > li > a {
+        padding-left: 15px;
+    }
+
+    #jsn-desktopswitch {
+        top: 0;
+        right: 0;
+        padding: 14px;
+    }
+
+    body.jsn-direction-rtl #jsn-desktopswitch {
+        right: auto;
+        left: 0;
+    }
+
+    #jsn-desktopswitch a, ul#jsn-sitetools-menu > li, ul#jsn-sitetools-inline > li {
+        background-image: url(icons-uni-white.png);
+    }
+
+    #jsn-menu.jsn-menu-sticky #jsn-desktopswitch, #jsn-menu.jsn-menu-sticky #jsn-sitetoolspanel {
+        display: block;
+    }
+
+    #jsn-sitetoolspanel {
+        top: 0;
+        right: 36px;
+    }
+
+    body.jsn-direction-rtl #jsn-sitetoolspanel {
+        right: auto;
+        left: 36px;
+    }
+
+    ul#jsn-sitetools-inline ul {
+        margin: 0;
+    }
+
+    ul#jsn-sitetools-inline ul li {
+        padding: 0;
+    }
+
+    ul#jsn-sitetools-menu li, ul#jsn-sitetools-inline li {
+        background-position: center -3490px;
+    }
+
+    ul#jsn-sitetools-menu > li > a, ul#jsn-sitetools-inline > li > a {
+        width: 48px;
+        height: 48px;
+    }
+
+    ul#jsn-sitetools-menu ul li a, ul#jsn-sitetools-inline ul li a {
+        margin: 17px 4px;
+    }
+
+    body.jsn-direction-rtl ul#jsn-sitetools-menu ul li a, body.jsn-direction-rtl ul#jsn-sitetools-inline ul li a {
+        float: right;
+        margin: 17px 6px;
+    }
+
+    #jsn-pos-mainmenu .jsn-modulecontent > .jsn-menu-toggle {
+        width: 60px;
+    }
+
+    #jsn-menu #jsn-pos-toolbar {
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 60px;
+        width: auto;
+    }
+
+    body.jsn-direction-rtl #jsn-menu #jsn-pos-toolbar {
+        right: 60px;
+        left: auto;
+    }
+
+    #jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner {
+        box-shadow: none;
+        border: none;
+    }
+
+    #jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner h3.jsn-moduletitle {
+        border: none;
+        padding: 14px 5px;
+    }
+
+    #jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner h3.jsn-moduletitle span {
+        max-width: 100%;
+    }
+
+    #jsn-menu div.display-dropdown[class*="jsn-icon-"] h3.jsn-moduletitle span.jsn-moduleicon {
+        padding-top: 0;
+    }
+
+    #jsn-menu div.display-dropdown[class*="jsn-icon-"] h3.jsn-moduletitle > span {
+        background: none;
+    }
+
+    #jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontent {
+        display: none;
+        margin: 0;
+        top: auto;
+    }
+
+    #jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner:hover .jsn-modulecontent {
+        margin: 0;
+    }
+
+    #jsn-menu div.jsn-modulecontainer[class*="display-"] .jsn-modulecontent:before {
+        display: none;
+    }
+
+    #jsn-promo #jsn-pos-promo-left, #jsn-promo #jsn-pos-promo-right, #jsn-leftsidecontent, #jsn-rightsidecontent, #jsn-pos-footer, #jsn-pos-bottom {
+        margin: 0;
+        padding: 0 10px;
+        text-align: left;
+    }
+
+    #jsn-promo.jsn-haspromoright #jsn-pos-promo-left, #jsn-promo.jsn-haspromoleft #jsn-pos-promo-right {
+        width: 100%;
+    }
+
+    #jsn-pos-promo-left div.jsn-modulecontainer, #jsn-pos-promo-right div.jsn-modulecontainer {
+        padding: 10px 0;
+    }
+
+    #jsn-headerright {
+        float: none;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    #jsn-headerright #jsn-pos-top {
+        float: none;
+    }
+
+    #jsn-headerright #jsn-pos-top div.jsn-modulecontainer {
+        float: none;
+        margin: 20px 0;
+    }
+
+    div#jsn-pos-breadcrumbs.display-tablet, div.jsn-modulecontainer.display-tablet {
+        display: none;
+    }
+
+    div[id*="jsn-pos-user"] div.jsn-modulecontainer div.jsn-modulecontainer_inner, div.jsn-modulescontainer div.jsn-modulecontainer_inner, #jsn-pos-user-top div.jsn-modulecontainer_inner, #jsn-pos-user-bottom div.jsn-modulecontainer_inner {
+        margin: 10px 0 !important;
+    }
+
+    div.jsn-horizontallayout div.jsn-modulecontainer:first-child {
+        margin-top: 0;
+    }
+
+    div.jsn-modulescontainer {
+        padding: 0;
+    }
+
+    div.jsn-modulescontainer div.jsn-modulecontainer {
+        padding: 1px 0;
+        margin-top: 0;
+    }
+
+    div.jsn-modulescontainer div[class*="box-"], div.jsn-modulescontainer div[class*="solid-"], div.jsn-modulescontainer div[class*="richbox-"], div.jsn-modulescontainer div[class*="lightbox-"], div.jsn-modulescontainer2 div.jsn-modulecontainer {
+        width: 100%;
+    }
+
+    #jsn-pos-content-top, #jsn-pos-content-bottom, #jsn-usermodules3 {
+        padding: 10px;
+    }
+
+    div#jsn-content.jsn-hasright #jsn-content_inner2, div#jsn-content.jsn-hasleft #jsn-content_inner {
+        background: none;
+    }
+
+    #jsn-maincontent_inner {
+        margin: 0 !important;
+    }
+
+    #jsn-leftsidecontent_inner, #jsn-pos-innerleft_inner, #jsn-rightsidecontent_inner, #jsn-pos-innerright_inner {
+        padding: 10px 0 !important;
+    }
+
+    div.jsn-modulescontainer2 div.jsn-modulecontainer, div.jsn-modulescontainer3 div.jsn-modulecontainer, div.jsn-modulescontainer4 div.jsn-modulecontainer, div.jsn-modulescontainer5 div.jsn-modulecontainer, div.jsn-modulescontainer6 div.jsn-modulecontainer, #jsn-pos-user1, #jsn-pos-user2, #jsn-pos-user3, #jsn-pos-user4, #jsn-pos-user5, #jsn-pos-user6, #jsn-pos-user7, #jsn-pos-footer, #jsn-pos-bottom {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    #jsn-usermodules3 {
+        margin-top: 0;
+    }
+
+    .text-tip, .text-info, .text-alert, .text-audio, .text-video, .text-comment, .text-download, .text-attachment {
+        padding-left: 4em;
+    }
+
+    body.jsn-direction-rtl .text-tip, body.jsn-direction-rtl .text-info, body.jsn-direction-rtl .text-alert, body.jsn-direction-rtl .text-audio, body.jsn-direction-rtl .text-video, body.jsn-direction-rtl .text-comment, body.jsn-direction-rtl .text-download, body.jsn-direction-rtl .text-attachment {
+        padding-right: 4em;
+    }
+
+    div[class*="grid-layout"] div.grid-col {
+        width: 100%;
+    }
+
+    div.grid-layout div.grid-col div.grid-col_inner {
+        margin-right: 0;
+    }
+
+    body.jsn-direction-rtl div.grid-layout div.grid-col div.grid-col_inner {
+        margin-left: 0;
+    }
+
+    #jsn-footer-inner1 {
+        background-position: -450px bottom;
+    }
+
+    #jsn-social-icons {
+        position: static !important;
+        width: auto !important;
+        padding: 10px !important;
+        height: 36px;
+    }
+
+    #jsn-social-icons ul {
+        margin-bottom: 0 !important;
+    }
+
+    #jsn-social-icons ul li {
+        float: left;
+        margin-bottom: 0 !important;
+        margin-right: 15px;
+    }
+
+    body.jsn-direction-rtl #jsn-social-icons {
+        float: right;
+    }
+
+    body.jsn-direction-rtl #jsn-social-icons ul li {
+        float: right;
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    body.jsn-direction-rtl #jsn-social-icons ul li a {
+        overflow: hidden;
+    }
+
+    #jsn-gotoplink {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    body.jsn-direction-rtl #jsn-gotoplink {
+        bottom: 10px;
+        left: 10px;
+        right: auto;
+    }
+
+    /* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== *//* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== *//* ----- ARTICLE DETAILS ----- */
+    p, pre, blockquote, form, dl, ul, ol, fieldset, address, table {
+        word-wrap: break-word;
+    }
+
+    /* ----- SECTION / CATEGORY BLOG LAYOUT ----- *//* ARTICLE COLUMN CONTAINER */
+    .jsn-articlecols {
+        float: none;
+        width: 100% !important;
+    }
+
+    .jsn-articlecols .jsn-article {
+        padding: 0;
+    }
+
+    /* =============== JOOMLA! EXTENSIONS - COM_NEWSFEED =============== */
+    .com-newsfeed table.jsn-infotable td.jsn-table-column-links, .com-newsfeed legend.hidelabeltxt {
+        display: none;
+    }
+
+    .com-newsfeed div.display-limit {
+        float: right;
+    }
+
+    .com-newsfeed table.category {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+    }
+
+    .com-newsfeed table.category thead th {
+        padding: 10px;
+    }
+
+    .com-newsfeed table.category thead .item-title {
+        text-align: left;
+    }
+
+    .com-newsfeed table.category thead {
+        background-color: #999;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .com-newsfeed table.category thead th a {
+        color: #FFF;
+    }
+
+    .com-newsfeed table.category .item-num-art {
+        text-align: center;
+    }
+
+    .com-newsfeed table.category .item-link {
+        display: none;
+    }
+
+    .com-newsfeed table.category tbody td {
+        padding: 10px 5px;
+        border-bottom: 1px solid #CCC;
+    }
+
+    .jsn-joomla-30 .com-newsfeed ul.category li {
+        float: left;
+        width: 100%;
+    }
+
+    /* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */
+    .com-contact table.jsn-infotable td.jsn-table-column-country, .com-contact table.jsn-infotable td.jsn-table-column-state, .com-contact table.jsn-infotable td.jsn-table-column-suburb, .com-contact table.jsn-infotable td.jsn-table-column-position {
+        display: none;
+    }
+
+    /* =============== JOOMLA! EXTENSIONS - COM_USER =============== *//* ----- USER FORM LAYOUT ----- */
+    div.com-user div.default-login {
+        width: 90%;
+    }
+
+    div.com-user div.default-login .login-fields input {
+        display: block;
+        width: 95%;
+    }
+
+    /* =============== CUSTOM CSS =============== */
+    .jsn-homepage .jsn-gallery .jsn-themegrid-image, .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img {
+        width: 110px !important;
+        height: 80px !important;
+    }
+
+    .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img {
+        left: 0 !important;
+    }
+
+    .infor-promo .image-left {
+        width: 90px;
+    }
+
+    .infor-promo .infor-promo-text {
+        padding: 0 !important;
+    }
+
+    .jsn-direction-rtl .infor-promo {
+        direction: rtl;
+        text-align: right;
+    }
+}
+
+/************************************************************************************smartphone layout (320 - 480): Lanscape Orientaion*************************************************************************************/
+@media only screen and (max-device-width: 480px) and (orientation: landscape) {
+    body {
+        font-size: 10px !important;
+    }
+}
+
+/************************************************************************************ tablet wide layout (481 - 960): arrange modules in 3 columns and 1 side bar*************************************************************************************/
+@media only screen and (min-width: 481px) and (max-width: 960px), (min-device-width: 481px) and (max-device-width: 960px) {
+    #jsn-content-top.jsn-haspromoleft.jsn-haspromoright #jsn-promo #jsn-pos-promo-left, #jsn-content-top.jsn-haspromoleft.jsn-haspromoright #jsn-promo #jsn-pos-promo-right, #jsn-content.jsn-hasleft.jsn-hasright #jsn-leftsidecontent, #jsn-content.jsn-hasleft.jsn-hasright #jsn-rightsidecontent, #jsn-content.jsn-hasinnerright #jsn-pos-innerleft, #jsn-content.jsn-hasinnerleft #jsn-pos-innerright {
+        width: 49.95%;
+        float: left;
+    }
+
+    #jsn-pos-promo, #jsn-pos-promo-left, #jsn-pos-promo-right, #jsn-maincontent, #jsn-leftsidecontent, #jsn-rightsidecontent, #jsn-pos-innerleft, #jsn-pos-innerright {
+        margin: 0;
+    }
+
+    #jsn-leftsidecontent div.jsn-modulecontainer, #jsn-rightsidecontent div.jsn-modulecontainer {
+        margin-top: 30px;
+    }
+
+    #jsn-leftsidecontent div.jsn-modulecontainer:first-child, #jsn-rightsidecontent div.jsn-modulecontainer:first-child {
+        margin-top: 0;
+    }
+
+    div#jsn-pos-breadcrumbs.display-smartphone, div.jsn-modulecontainer.display-smartphone {
+        display: none;
+    }
+
+    div#jsn-pos-breadcrumbs.display-tablet, div.jsn-modulecontainer.display-tablet {
+        display: block;
+    }
+
+    #jsn-leftsidecontent_inner, #jsn-rightsidecontent_inner {
+        margin: 15px 10px !important;
+    }
+
+    #jsn-pos-innerleft > div, #jsn-pos-innerright > div {
+        padding: 15px;
+    }
+
+    div.grid-layout4 div.grid-col, div.grid-layout5 div.grid-col, div.grid-layout6 div.grid-col {
+        width: 33.3%;
+    }
+
+    div.jsn-modulescontainer3 #jsn-pos-user5 div.jsn-modulecontainer, div.jsn-modulescontainer3 #jsn-pos-user6 div.jsn-modulecontainer, div.jsn-modulescontainer3 #jsn-pos-user7 div.jsn-modulecontainer {
+        width: 100%;
+    }
+
+    #jsn-pos-content-top .span2, #jsn-pos-content-top .span3, #jsn-pos-content-top .span4, #jsn-pos-content-bottom .span2, #jsn-pos-content-bottom .span3, #jsn-pos-content-bottom .span4, #jsn-pos-user-top .span2, #jsn-pos-user-top .span3, #jsn-pos-user-top .span4, #jsn-pos-user-bottom .span2, #jsn-pos-user-bottom .span3, #jsn-pos-user-bottom .span4, #jsn-usermodules3 .span2, #jsn-usermodules3 .span3, #jsn-usermodules3 .span4, #jsn-pos-mainbody-top .span2, #jsn-pos-mainbody-top .span3, #jsn-pos-mainbody-top .span4, #jsn-pos-mainbody-bottom .span2, #jsn-pos-mainbody-bottom .span3, #jsn-pos-mainbody-bottom .span4 {
+        width: 31.491712707182323%;
+        float: left;
+    }
+
+    #jsn-pos-content-top .span2:nth-child(4), #jsn-pos-content-top .span3:nth-child(4), #jsn-pos-content-bottom .span2:nth-child(4), #jsn-pos-content-bottom .span3:nth-child(4), #jsn-pos-user-top .span2:nth-child(4), #jsn-pos-user-top .span3:nth-child(4), #jsn-pos-user-bototm .span2:nth-child(4), #jsn-pos-user-bottom .span3:nth-child(4), #jsn-usermodules3 .span2:nth-child(4), #jsn-usermodules3 .span3:nth-child(4), #jsn-pos-mainbody-top .span2:nth-child(4), #jsn-pos-mainbody-top .span3:nth-child(4), #jsn-pos-mainbody-bottom .span2:nth-child(4), #jsn-pos-mainbody-bottom .span3:nth-child(4) {
+        margin-left: 0;
+    }
+
+    #jsn-content.jsn-hasright #jsn-maincontent_inner, #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order1 #jsn-maincontent_inner, #jsn-content.jsn-hasleft #jsn-maincontent_inner, #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order3 #jsn-maincontent_inner, #jsn-content.jsn-hasright .order2 #jsn-maincontent_inner, #jsn-content.jsn-hasleft.jsn-hasright #jsn-maincontent.order3 #jsn-maincontent_inner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/************************************************************************************ tablet narrow layout (481 - 767): arrange modules in 2 columns and 1 side bar*************************************************************************************/
+@media only screen and (min-width: 481px) and (max-width: 768px), (min-device-width: 481px) and (max-device-width: 768px) and (orientation: portrait) {
+    #jsn-pos-content-top [class*="span"], #jsn-pos-content-bottom [class*="span"], #jsn-pos-user-top [class*="span"], #jsn-pos-user-bottom [class*="span"], #jsn-pos-mainbody-top [class*="span"], #jsn-pos-mainbody-bottom [class*="span"], #jsn-usermodules1 [class*="span"], #jsn-usermodules2 [class*="span"], #jsn-usermodules3 [class*="span"], #jsn-footermodules [class*="span"] {
+        width: 48.93617021276595%;
+        margin-left: 0;
+        float: left;
+    }
+
+    .jsn-horizontallayout .span12, #jsn-usermodules1 .span12, #jsn-usermodules2 .span12, #jsn-usermodules3 .span12 {
+        width: 100% !important;
+    }
+
+    #jsn-pos-content-top [class*="span"]:nth-child(2), #jsn-pos-content-top [class*="span"]:nth-child(4), #jsn-pos-content-top [class*="span"]:nth-child(6), #jsn-pos-content-bottom [class*="span"]:nth-child(2), #jsn-pos-content-bottom [class*="span"]:nth-child(4), #jsn-pos-content-bottom [class*="span"]:nth-child(6), #jsn-pos-user-top [class*="span"]:nth-child(2), #jsn-pos-user-top [class*="span"]:nth-child(4), #jsn-pos-user-top [class*="span"]:nth-child(6), #jsn-pos-user-bottom [class*="span"]:nth-child(2), #jsn-pos-user-bottom [class*="span"]:nth-child(4), #jsn-pos-user-bottom [class*="span"]:nth-child(6), #jsn-pos-mainbody-top [class*="span"]:nth-child(2), #jsn-pos-mainbody-top [class*="span"]:nth-child(4), #jsn-pos-mainbody-top [class*="span"]:nth-child(6), #jsn-pos-mainbody-bottom [class*="span"]:nth-child(2), #jsn-pos-mainbody-bottom [class*="span"]:nth-child(4), #jsn-pos-mainbody-bottom [class*="span"]:nth-child(6), #jsn-usermodules1 [class*="span"]:nth-child(2), #jsn-usermodules2 [class*="span"]:nth-child(2), #jsn-usermodules3 [class*="span"]:nth-child(2), #jsn-footermodules [class*="span"]:nth-child(2) {
+        margin-left: 2.127659574468085%;
+    }
+
+    #jsn-usermodules3.jsn-modulescontainer3 .span4:last-child, #jsn-pos-content-bottom.jsn-modulescontainer3 .span4:last-child {
+        margin-top: 20px;
+    }
+
+    /* =============== CUSTOM CSS =============== */
+    .jsn-homepage .jsn-gallery > div {
+        height: 290px !important;
+    }
+
+    .jsn-homepage .jsn-gallery .jsn-themegrid-image, .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img {
+        width: 158px !important;
+        height: 110px !important;
+    }
+
+    .jsn-homepage .jsn-gallery .jsn-themegrid-image > a > img {
+        left: 0 !important;
+    }
+}
 
 /* FILE: /templates/jsn_ares_pro/css/jsn_social_icons.css */
-/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//* ========== SOCIAL - ICON ========== */#jsn-social-icons {width: 80px;position: absolute;left: 0;bottom: 0;padding-top: 25px;background-color: #373737;}#jsn-social-icons ul {margin: 0 auto;display: block;margin-bottom: 10px;}#jsn-social-icons ul li {list-style: none;margin-bottom: 5px;display: block;}#jsn-social-icons ul li a {display: block;text-indent: -999em;background-image: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png);background-color: transparent;background-repeat: no-repeat;margin: 0 auto;width: 38px;height: 42px;transition: all 0.3s ease;-moz-transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50);opacity: 0.5;}#jsn-social-icons ul li:hover a {-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);opacity: 1;}#jsn-social-icons ul li.facebook a {background-position: 0 0;}#jsn-social-icons ul li.twitter a {background-position: 0 -42px;}#jsn-social-icons ul li.googleplus a {background-position: 0 -84px;}#jsn-social-icons ul li.youtube a {background-position: 0 -126px;}#jsn-social-icons ul li.pinterest a {background-position: 0 -168px;}#jsn-social-icons ul li.myspace a {background-position: 0 -210px;}#jsn-social-icons ul li.flickr a {background-position: 0 -252px;}#jsn-social-icons ul li.dribble a {background-position: 0 -294px;}#jsn-social-icons ul li.stumbleupon a {background-position: 0 -336px;}#jsn-social-icons ul li.yahoo a {background-position: 0 -378px;}#jsn-social-icons ul li.skype a {background-position: 0 -420px;}#jsn-social-icons ul li.rss a {background-position: 0 -462px;}#jsn-social-icons ul li.linkedin a {background-position: 0 -505px;}
+/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//* ========== SOCIAL - ICON ========== */
+#jsn-social-icons {
+    width: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 25px;
+    background-color: #373737;
+}
+
+#jsn-social-icons ul {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#jsn-social-icons ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#jsn-social-icons ul li a {
+    display: block;
+    text-indent: -999em;
+    background-image: url(icons-social.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 38px;
+    height: 42px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#jsn-social-icons ul li:hover a {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+#jsn-social-icons ul li.facebook a {
+    background-position: 0 0;
+}
+
+#jsn-social-icons ul li.twitter a {
+    background-position: 0 -42px;
+}
+
+#jsn-social-icons ul li.googleplus a {
+    background-position: 0 -84px;
+}
+
+#jsn-social-icons ul li.youtube a {
+    background-position: 0 -126px;
+}
+
+#jsn-social-icons ul li.pinterest a {
+    background-position: 0 -168px;
+}
+
+#jsn-social-icons ul li.myspace a {
+    background-position: 0 -210px;
+}
+
+#jsn-social-icons ul li.flickr a {
+    background-position: 0 -252px;
+}
+
+#jsn-social-icons ul li.dribble a {
+    background-position: 0 -294px;
+}
+
+#jsn-social-icons ul li.stumbleupon a {
+    background-position: 0 -336px;
+}
+
+#jsn-social-icons ul li.yahoo a {
+    background-position: 0 -378px;
+}
+
+#jsn-social-icons ul li.skype a {
+    background-position: 0 -420px;
+}
+
+#jsn-social-icons ul li.rss a {
+    background-position: 0 -462px;
+}
+
+#jsn-social-icons ul li.linkedin a {
+    background-position: 0 -505px;
+}
 
 /* FILE: /templates/jsn_ares_pro/css/custom.css */
-/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//* ============================== CUSTOM CSS ============================== */#jsn-pos-top .demo-intro img {border-radius: 100%;border: 3px solid #c9c9c9;max-width: 100px;margin: 10px 20px 0 0;width: 100px\9;height: 100px\9;}#jsn-pos-top .demo-intro h3.jsn-moduletitle {padding: 10px 0 0;font-size: 2.2em;font-weight: normal;color: #b93434;}.jsn-direction-rtl #jsn-pos-top .demo-intro {direction: rtl;float: right;text-align: right;}.jsn-direction-rtl #jsn-pos-top .demo-intro img {float: right;margin: 10px 0 0 20px;}.jsn-homepage #jsn-pos-promo {width: 49%;}.jsn-homepage #jsn-pos-promo-right {width: 47.95%;}.promo-homepage-demo img.demo-image {margin: 20px 0 0 40px;max-width: 100%;}div.search #mod-search-searchword {padding: 10px 20px;height: 40px;width: auto;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}.jsn-themegrid-container {background-color: transparent !important;}.infor-promo {margin-top: 20px;}.infor-promo h3.jsn-moduletitle {padding-bottom: 0;}.infor-promo > div {clear: both;}.infor-promo .infor-promo-text {padding-left: 160px;}.jsn-direction-rtl .infor-promo .infor-promo-text {padding-left: 0;padding-right: 160px;}.infor-promo ul li {list-style: none;background-image: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-base.png);background-repeat: no-repeat;background-position: left -336px;padding-left: 20px;}#twitter-feed .single-tweet {border-left: 3px solid #b5b5b5;padding: 0 0 0 20px;margin: 0 0 15px 0;transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;}#twitter-feed .single-tweet:hover {background-color: rgba(0,0,0,0.05);}ul#social {display: block;padding: 0 15px;}ul#social li {list-style-type: none;margin: 12px 0 0;text-align: center;}ul#social li a {transition: none;-moz-transition: none;-webkit-transition: none;}ul#social li a span {-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;-ms-transition: all .5s;transition: all .5s;padding: 15px 24px;display: block;text-indent: -999em;}ul#social li a span.dribbble {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 0 no-repeat;}ul#social li a span.twitter {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 -60px no-repeat;}ul#social li a span.rss {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 -120px no-repeat;}ul#social li a span.facebook {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 -180px no-repeat;}ul#social li a span.pinterest {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 -240px no-repeat;}ul#social li a span.googleplus {background: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/icons/icons-social.png) 0 -300px no-repeat;}ul#social li a span:hover {opacity: 0.6;}/* ---------- UNIFORM HOMEPAGE DEMO ---------- */.uniform-homepage-demo .jsn-form-content .control-group.email {padding: 0 !important;border: none !important;}.uniform-homepage-demo .jsn-form-content label.control-label {display: none;}.uniform-homepage-demo .jsn-form-content .jsn-row-container,.uniform-homepage-demo .jsn-form-content input.email,.uniform-homepage-demo .form-actions button.jsn-form-submit {margin: 0 !important;}.uniform-homepage-demo .form-actions {padding: 0 !important;margin: 0 !important;}.uniform-homepage-demo .form-actions + .jsn-text-center {display: none;}.jsn-direction-rtl .uniform-homepage-demo .jsn-bootstrap .pull-left {float: right;}/* ---------- HOMEPAGE SLIDESHOW ---------- */.jsn-homepage .jsn-themegrid-box {border: 1px solid #E0E0E0 !important;background-color: transparent !important;padding: 10px !important;border-radius: 5px !important;-moz-border-radius: 5px !important;-webkit-border-radius: 5px !important;box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF  !important;-moz-box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF  !important;-webkit-box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF  !important;}.jsn-homepage .jsn-themegrid-box img {transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;}.jsn-homepage .jsn-themegrid-box:hover img {opacity:.7;transform:scale(1.5,1.5) ;-moz-transform:scale(1.5,1.5) ;-webkit-transform:scale(1.5,1.5) ;}/* ---------- COLOR STYLES MENU CLASS SUFFIX ---------- */body.jsn-direction-rtl .infor-promo ul li {    background-position: right -336px;    padding-right: 20px;    padding-left: 0;}body.jsn-direction-rtl #twitter-feed .single-tweet {    border-right: 3px solid #B5B5B5;    border-left: none;    padding: 0 20px 0 0;}
+/*** @author    JoomlaShine.com http://www.joomlashine.com* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.* @license   JoomlaShine.com Proprietary License*//* ============================== CUSTOM CSS ============================== */
+#jsn-pos-top .demo-intro img {
+    border-radius: 100%;
+    border: 3px solid #c9c9c9;
+    max-width: 100px;
+    margin: 10px 20px 0 0;
+    width: 100 px\9;
+    height: 100 px\9;
+}
+
+#jsn-pos-top .demo-intro h3.jsn-moduletitle {
+    padding: 10px 0 0;
+    font-size: 2.2em;
+    font-weight: normal;
+    color: #b93434;
+}
+
+.jsn-direction-rtl #jsn-pos-top .demo-intro {
+    direction: rtl;
+    float: right;
+    text-align: right;
+}
+
+.jsn-direction-rtl #jsn-pos-top .demo-intro img {
+    float: right;
+    margin: 10px 0 0 20px;
+}
+
+.jsn-homepage #jsn-pos-promo {
+    width: 49%;
+}
+
+.jsn-homepage #jsn-pos-promo-right {
+    width: 47.95%;
+}
+
+.promo-homepage-demo img.demo-image {
+    margin: 20px 0 0 40px;
+    max-width: 100%;
+}
+
+div.search #mod-search-searchword {
+    padding: 10px 20px;
+    height: 40px;
+    width: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.jsn-themegrid-container {
+    background-color: transparent !important;
+}
+
+.infor-promo {
+    margin-top: 20px;
+}
+
+.infor-promo h3.jsn-moduletitle {
+    padding-bottom: 0;
+}
+
+.infor-promo > div {
+    clear: both;
+}
+
+.infor-promo .infor-promo-text {
+    padding-left: 160px;
+}
+
+.jsn-direction-rtl .infor-promo .infor-promo-text {
+    padding-left: 0;
+    padding-right: 160px;
+}
+
+.infor-promo ul li {
+    list-style: none;
+    background-image: url(icons-base.png);
+    background-repeat: no-repeat;
+    background-position: left -336px;
+    padding-left: 20px;
+}
+
+#twitter-feed .single-tweet {
+    border-left: 3px solid #b5b5b5;
+    padding: 0 0 0 20px;
+    margin: 0 0 15px 0;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#twitter-feed .single-tweet:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+ul#social {
+    display: block;
+    padding: 0 15px;
+}
+
+ul#social li {
+    list-style-type: none;
+    margin: 12px 0 0;
+    text-align: center;
+}
+
+ul#social li a {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+}
+
+ul#social li a span {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    padding: 15px 24px;
+    display: block;
+    text-indent: -999em;
+}
+
+ul#social li a span.dribbble {
+    background: url(icons-social.png) 0 0 no-repeat;
+}
+
+ul#social li a span.twitter {
+    background: url(icons-social.png) 0 -60px no-repeat;
+}
+
+ul#social li a span.rss {
+    background: url(icons-social.png) 0 -120px no-repeat;
+}
+
+ul#social li a span.facebook {
+    background: url(icons-social.png) 0 -180px no-repeat;
+}
+
+ul#social li a span.pinterest {
+    background: url(icons-social.png) 0 -240px no-repeat;
+}
+
+ul#social li a span.googleplus {
+    background: url(icons-social.png) 0 -300px no-repeat;
+}
+
+ul#social li a span:hover {
+    opacity: 0.6;
+}
+
+/* ---------- UNIFORM HOMEPAGE DEMO ---------- */
+.uniform-homepage-demo .jsn-form-content .control-group.email {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.uniform-homepage-demo .jsn-form-content label.control-label {
+    display: none;
+}
+
+.uniform-homepage-demo .jsn-form-content .jsn-row-container, .uniform-homepage-demo .jsn-form-content input.email, .uniform-homepage-demo .form-actions button.jsn-form-submit {
+    margin: 0 !important;
+}
+
+.uniform-homepage-demo .form-actions {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.uniform-homepage-demo .form-actions + .jsn-text-center {
+    display: none;
+}
+
+.jsn-direction-rtl .uniform-homepage-demo .jsn-bootstrap .pull-left {
+    float: right;
+}
+
+/* ---------- HOMEPAGE SLIDESHOW ---------- */
+.jsn-homepage .jsn-themegrid-box {
+    border: 1px solid #E0E0E0 !important;
+    background-color: transparent !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF !important;
+    -moz-box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF !important;
+    -webkit-box-shadow: inset 1px 1px 0 #FFF, inset -1px -1px 0 #FFF !important;
+}
+
+.jsn-homepage .jsn-themegrid-box img {
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.jsn-homepage .jsn-themegrid-box:hover img {
+    opacity: .7;
+    transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+}
+
+/* ---------- COLOR STYLES MENU CLASS SUFFIX ---------- */
+body.jsn-direction-rtl .infor-promo ul li {
+    background-position: right -336px;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+body.jsn-direction-rtl #twitter-feed .single-tweet {
+    border-right: 3px solid #B5B5B5;
+    border-left: none;
+    padding: 0 20px 0 0;
+}

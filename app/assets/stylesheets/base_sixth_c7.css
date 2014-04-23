@@ -698,7 +698,7 @@ html[dir="rtl"] .jsn-master .jsn-narrow .jsn-row-container label {
     position: relative;
     width: 36px;
     height: 36px;
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/select.png);
+    background: url(select.png);
     float: left;
     top: -2px;
     left: 10px;
@@ -711,7 +711,7 @@ html[dir="rtl"] .jsn-master .jsn-narrow .jsn-row-container label {
     left: 3px;
     width: 30px;
     height: 30px;
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/select.png) center;
+    background: url(select.png) center;
 }
 
 .jsn-showcase-theme-settings #themegrid-thumbnail-tab #thumbnail_border_color, .jsn-showcase-theme-settings #themegrid-container-tab #background_color {

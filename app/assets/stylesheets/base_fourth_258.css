@@ -361,7 +361,7 @@ iframe {
 }
 
 .jsn-master .jsn-bgpattern.pattern-sidebar {
-    background: #E9E9E9 url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/backgrounds/bg-pattern-grey.png);
+    background: #E9E9E9 url(bg-pattern-grey.png);
 }
 
 .jsn-master .jsn-bgimage {
@@ -375,15 +375,15 @@ iframe {
 }
 
 .jsn-master .jsn-bgimage.image-loading-16 {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icon-16-loading-circle.gif);
+    background-image: url(icon-16-loading-circle.gif);
 }
 
 .jsn-master .jsn-bgimage.image-loading-24 {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icon-24-loading-circle.gif);
+    background-image: url(icon-24-loading-circle.gif);
 }
 
 .jsn-master .jsn-bgimage.image-loading-32 {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-32/icon-32-loading-circle.gif);
+    background-image: url(icon-32-loading-circle.gif);
 }
 
 .jsn-master .jsn-bgloading {
@@ -505,7 +505,7 @@ iframe {
     vertical-align: text-top;
     background-repeat: no-repeat;
     background-position: top left;
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icons-16-uni.png) !important;
+    background-image: url(icons-16-uni.png) !important;
 }
 
 .jsn-master .jsn-icon16.jsn-icon-search {
@@ -629,7 +629,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon16.jsn-icon-social {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icons-16-social.png) !important;
+    background-image: url(icons-16-social.png) !important;
 }
 
 .jsn-master .jsn-icon16.jsn-icon-social.jsn-icon-linkedin {
@@ -673,11 +673,11 @@ iframe {
 }
 
 .jsn-master .jsn-icon16.jsn-icon-layout {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icons-16-layout.png) !important;
+    background-image: url(icons-16-layout.png) !important;
 }
 
 .jsn-master .jsn-icon16.jsn-icon-layout.active {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icons-16-layout-active.png) !important;
+    background-image: url(icons-16-layout-active.png) !important;
 }
 
 .jsn-master .jsn-icon16.jsn-icon-layout.jsn-icon-tiles {
@@ -705,7 +705,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon16.jsn-icon-loading {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-16/icon-16-loading-circle.gif) center center no-repeat !important;
+    background: url(icon-16-loading-circle.gif) center center no-repeat !important;
 }
 
 /* Depricated */
@@ -730,7 +730,7 @@ iframe {
     vertical-align: text-top;
     background-repeat: no-repeat;
     background-position: top left;
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icons-24-uni.png) !important;
+    background-image: url(icons-24-uni.png) !important;
 }
 
 .jsn-master .jsn-icon24.jsn-icon-search {
@@ -854,7 +854,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon24.jsn-icon-social {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icons-24-social.png) !important;
+    background-image: url(icons-24-social.png) !important;
 }
 
 .jsn-master .jsn-icon24.jsn-icon-social.jsn-icon-linkedin {
@@ -898,7 +898,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon24.jsn-icon-flag {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icons-24-flag.png) !important;
+    background-image: url(icons-24-flag.png) !important;
 }
 
 .jsn-master .jsn-icon24.jsn-icon-flag.en-gb {
@@ -1006,7 +1006,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon24.jsn-icon-joomla {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icons-24-joomla.png) !important;
+    background-image: url(icons-24-joomla.png) !important;
 }
 
 .jsn-master .jsn-icon24.jsn-icon-joomla.jsn-icon-module {
@@ -1026,7 +1026,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon24.jsn-icon-loading {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icon-24-loading-circle.gif) center center no-repeat !important;
+    background: url(icon-24-loading-circle.gif) center center no-repeat !important;
 }
 
 /* =============== ICON32 =============== */
@@ -1038,7 +1038,7 @@ iframe {
     vertical-align: text-top;
     background-repeat: no-repeat;
     background-position: top left;
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-32/icons-32-uni.png) !important;
+    background-image: url(icons-32-uni.png) !important;
 }
 
 .jsn-master .jsn-icon32.jsn-icon-search {
@@ -1162,7 +1162,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon32.jsn-icon-social {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-32/icons-32-social.png) !important;
+    background-image: url(icons-32-social.png) !important;
 }
 
 .jsn-master .jsn-icon32.jsn-icon-social.jsn-icon-linkedin {
@@ -1206,7 +1206,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon32.jsn-icon-products {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-32/icons-32-products.png) !important;
+    background-image: url(icons-32-products.png) !important;
 }
 
 .jsn-master .jsn-icon32.jsn-icon-products.jsn-icon-poweradmin {
@@ -1226,7 +1226,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon32.jsn-icon-loading {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-32/icon-32-loading-circle.gif) center center no-repeat !important;
+    background: url(icon-32-loading-circle.gif) center center no-repeat !important;
 }
 
 /* =============== ICON 48 =============== */
@@ -1241,7 +1241,7 @@ iframe {
 }
 
 .jsn-master .jsn-icon48.jsn-icon-products {
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-48/icons-48-products.png) !important;
+    background-image: url(icons-48-products.png) !important;
 }
 
 .jsn-master .jsn-icon48.jsn-icon-products.jsn-icon-poweradmin {
@@ -1269,7 +1269,7 @@ iframe {
     vertical-align: text-top;
     background-repeat: no-repeat;
     background-position: top left;
-    background-image: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-64/icons-64-bg.png) !important;
+    background-image: url(icons-64-bg.png) !important;
 }
 
 .jsn-master .jsn-icon64.jsn-icon-pointer {
@@ -1458,7 +1458,7 @@ iframe {
 
 .jsn-master .jsn-percent-arrow {
     position: absolute;
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-8/tipsy.gif) no-repeat bottom center;
+    background: url(tipsy.gif) no-repeat bottom center;
     width: 9px;
     height: 5px;
     bottom: -5px;
@@ -2664,7 +2664,7 @@ div.ui-dialog .ui-dialog-titlebar .ui-window-searchbar {
 }
 
 div.ui-dialog .ui-dialog-titlebar .ui-window-closetext-keyword {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-8/ui-window-closetextkeyword.png) center center no-repeat;
+    background: url(ui-window-closetextkeyword.png) center center no-repeat;
     position: absolute;
     top: 2px;
     right: 2px;
@@ -2762,11 +2762,11 @@ div.ui-dialog .ui-dialog-titlebar .ui-window-closetext-keyword {
 }
 
 .jsn-master .ui-resizable-e {
-    background: #fff url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/backgrounds/bg-handle-resize-h.png) center center no-repeat;
+    background: #fff url(bg-handle-resize-h.png) center center no-repeat;
 }
 
 .jsn-master .ui-resizable-s {
-    background: #fff url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/backgrounds/bg-handle-resize-v.png) center center no-repeat;
+    background: #fff url(bg-handle-resize-v.png) center center no-repeat;
 }
 
 /*========== MODAL WINDOW ========*/
@@ -2796,7 +2796,7 @@ div.ui-dialog .ui-dialog-titlebar .ui-window-closetext-keyword {
 .jsn-modal-indicator {
     display: none;
     content: ' ';
-    background: #000 url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/joomlashine/images/icons-24/icon-24-dark-loading-circle.gif) no-repeat center center;
+    background: #000 url(icon-24-dark-loading-circle.gif) no-repeat center center;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -3519,8 +3519,8 @@ div.ui-dialog .ui-dialog-titlebar .ui-window-closetext-keyword {
 /* FILE: /plugins/system/jsnframework/assets/3rd-party/font-icomoon/css/icomoon.css */
 @font-face {
     font-family: 'IcoMoon';
-    src: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/3rd-party/font-icomoon/fonts/IcoMoon.eot);
-    src: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/3rd-party/font-icomoon/fonts/IcoMoon.eot?#iefix) format('embedded-opentype'), url(/) format('svg'), url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/3rd-party/font-icomoon/fonts/IcoMoon.woff) format('woff'), url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/3rd-party/font-icomoon/fonts/IcoMoon.ttf) format('truetype');
+    src: url(../fonts/IcoMoon.eot);
+    src: url(../fonts/IcoMoon.eot?#iefix) format('embedded-opentype'), url(/) format('svg'), url(../fonts/IcoMoon.woff) format('woff'), url(../fonts/IcoMoon.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -4096,7 +4096,7 @@ div.ui-dialog .ui-dialog-titlebar .ui-window-closetext-keyword {
 
 .tipsy-arrow {
     position: absolute;
-    background: url(/joomla-templates/jsn_ares/pro/plugins/system/jsnframework/assets/3rd-party/jquery-tipsy/images/tipsy.gif) no-repeat top left;
+    background: url(tipsy.gif) no-repeat top left;
     width: 9px;
     height: 5px;
 }

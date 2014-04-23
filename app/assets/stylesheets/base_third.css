@@ -2145,7 +2145,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a, div.jsn-modulecontaine
 
 /* =============== SIDE MENU - TREE MENU =============== */
 ul.menu-treemenu > li > a > span {
-    background-image: url(/joomla-templates/jsn_ares/pro/templates/jsn_ares_pro/images/colors/red/bullet.png);
+    background-image: url(bullet.png);
 }
 
 /* ============================== MODULE STYLES ============================== *//* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== *//* =============== JOOMLA! EXTENSIONS - MOD_SEARCH =============== */
