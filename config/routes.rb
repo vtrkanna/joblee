@@ -1,5 +1,7 @@
 Joblee::Application.routes.draw do
 
+  get "/" => "admin#home_page"
+
   resources :page do
     collection do
        get :list
@@ -13,7 +15,9 @@ Joblee::Application.routes.draw do
        get "show_site"
        get :edit_site
     end
-  end
+ end
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -59,13 +59,13 @@ div.pp_default .pp_expand {
 
 /* Expand button */
 div.pp_default .pp_expand:hover {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+    background: url(sprite.png) 0 -56px no-repeat;
     cursor: pointer;
 }
 
 /* Expand button hover */
 div.pp_default .pp_contract {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+    background: url(sprite.png) 0 -84px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px;
@@ -73,7 +73,7 @@ div.pp_default .pp_contract {
 
 /* Contract button */
 div.pp_default .pp_contract:hover {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+    background: url(sprite.png) 0 -113px no-repeat;
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@ div.pp_default .pp_contract:hover {
 div.pp_default .pp_close {
     width: 30px;
     height: 30px;
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+    background: url(sprite.png) 2px 1px no-repeat;
     cursor: pointer;
 }
 
@@ -91,7 +91,7 @@ div.pp_default #pp_full_res .pp_inline {
 }
 
 div.pp_default .pp_gallery ul li a {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+    background: url(default_thumb.png) center center #f8f8f8;
     border: 1px solid #aaa;
 }
 
@@ -109,7 +109,7 @@ div.pp_default .pp_gallery a.pp_arrow_previous, div.pp_default .pp_gallery a.pp_
 }
 
 div.pp_default .pp_nav .pp_play, div.pp_default .pp_nav .pp_pause {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+    background: url(sprite.png) -51px 1px no-repeat;
     height: 30px;
     width: 30px;
 }
@@ -123,7 +123,7 @@ div.pp_default .pp_details {
 }
 
 div.pp_default a.pp_arrow_previous, div.pp_default a.pp_arrow_next {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+    background: url(sprite.png) -31px -3px no-repeat;
     height: 20px;
     margin: 4px 0 0 0;
     width: 20px;
@@ -173,22 +173,22 @@ div.pp_default .pp_description {
 }
 
 div.pp_default .pp_bottom .pp_left {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat;
+    background: url(sprite.png) -78px -127px no-repeat;
 }
 
 /* Bottom left corner */
 div.pp_default .pp_bottom .pp_middle {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x;
+    background: url(sprite_x.png) bottom left repeat-x;
 }
 
 /* Bottom pattern/color */
 div.pp_default .pp_bottom .pp_right {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat;
+    background: url(sprite.png) -112px -127px no-repeat;
 }
 
 /* Bottom right corner */
 div.pp_default .pp_loaderIcon {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/default/loader.gif) center center no-repeat;
+    background: url(loader.gif) center center no-repeat;
 }
 
 /* Loader icon *//* ------------------------------------------------------------------------DO NOT CHANGE------------------------------------------------------------------------- */
@@ -388,7 +388,7 @@ a.pp_arrow_previous, a.pp_arrow_next {
 }
 
 .pp_gallery li.default a {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+    background: url(default_thumbnail.gif) 0 0 no-repeat;
     display: block;
     height: 33px;
     width: 50px;
@@ -403,7 +403,7 @@ a.pp_arrow_previous, a.pp_arrow_next {
 }
 
 a.pp_next {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: right;
     height: 100%;
@@ -412,7 +412,7 @@ a.pp_next {
 }
 
 a.pp_previous {
-    background: url(/joomla-templates/jsn_ares/pro/plugins/jsnimageshow/themegrid/assets/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: left;
     height: 100%;
