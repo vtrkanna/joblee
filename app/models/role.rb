@@ -1,5 +1,6 @@
 class Role
   include Mongoid::Document
+  include Mongoid::Timestamps
 
   field :name, :type => String
   field :role_type, :type => String

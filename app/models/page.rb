@@ -1,5 +1,6 @@
 class Page
   include Mongoid::Document
+  include Mongoid::Timestamps
 
   field :name, :type => String
   field :title, :type => String
@@ -21,7 +22,7 @@ class Page
   field :updated_by, :type => Integer
   field :created_at, :type => DateTime
   field :updated_at, :type => DateTime
-	
+
   embedded_in :site
 
 end
