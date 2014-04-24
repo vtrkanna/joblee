@@ -34,6 +34,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'selenium-webdriver'
+  #gem "mongoid-rspec"
+  #gem 'cucumber-rails'
+  #gem 'database_cleaner
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
