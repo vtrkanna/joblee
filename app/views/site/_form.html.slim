@@ -9,16 +9,18 @@ div id="jsn-promo" class="jsn-haspromoright"
                 div
                   =form_tag "page_lis_form"
                     div class="list_page_fil"
-                    table
-                      thead
-                        th "Site Name"
-                        th "Alt name"
-                      tbody
-                        -@sites.each do |site|
-                          tr
-                            td = site.name
-                            td = site.alt_name
-                        end
+                      =field_set_tag "Page Name"
+                        =text_field_tag "page_name"
+                      =field_set_tag "Page title"
+                        =text_field_tag "page_title"
+                      =field_set_tag "URL"
+                        =text_field_tag "page_title"
+                      =field_set_tag "layout"
+                        =text_field_tag "layout"
+                      =field_set_tag "Menu"
+                        =text_field_tag "menu"
+                      =field_set_tag "Tag"
+                        =text_field_tag "tag"
                 div class="clearbreak"
 
   div id="jsn-content" class="jsn-hasleft"

@@ -6,13 +6,17 @@ Joblee::Application.routes.draw do
     collection do
        get :list
        get :show_page
-       get "edit_page"
+       get :new_page
+       post :create_page
+       get :edit_page
     end
   end
  resources :site do
     collection do
        get :list
-       get "show_site"
+       get :show_site
+       get :new_site
+       post :create_site
        get :edit_site
     end
  end

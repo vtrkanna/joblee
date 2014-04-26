@@ -7,6 +7,11 @@ class SiteController < ApplicationController
     render layout: "site", template: "site/list_site"
   end
 
+  def new_site
+    @site = Site.new
+    render layout: "site", template: "site/new_site"
+  end
+
   def show_site
     render layout: "site", template: "site/list_site"
   end
@@ -14,6 +19,23 @@ class SiteController < ApplicationController
   def edit_site
     @site = Site.find(params[:id])
     render layout: "site", template: "site/edit_site"
+  end
+
+
+  def create_site
+    @site = Site.new(site_params)
+    if @site.save
+      redirect_to action: :list
+    else
+      render action: :new_site
+    end
+  end
+
+
+  private
+
+  def site_params
+    params.require(:site).permit(:name, :alt_name)
   end
 
 end

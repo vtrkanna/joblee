@@ -18,6 +18,6 @@ class Site
 
   validate :name, :domain_id, :layout, :active, :presence => true
 
-  embeds_many :pages
+  has_many :pages
 
 end

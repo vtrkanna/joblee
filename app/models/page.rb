@@ -23,6 +23,6 @@ class Page
   field :created_at, :type => DateTime
   field :updated_at, :type => DateTime
 
-  embedded_in :site
+  belongs_to :site
 
 end
