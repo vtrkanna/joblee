@@ -5,8 +5,12 @@ class PageController < ApplicationController
     render layout: "site", template: "page/list_page"
   end
 
-  def edit_page
+  def new_page
+    @page = @site.pages.new
+  end
 
+  def edit_page
+    @page = @site.pages.find(params[:page_id])
   end
 
 end
