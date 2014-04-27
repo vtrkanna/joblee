@@ -12,4 +12,6 @@ class Domain
   field :created_at
   field :updated_at
 
+  validates :url, :url_type, :version, :site_id, :active, :presence => true
+
 end
