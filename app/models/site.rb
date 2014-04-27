@@ -16,7 +16,9 @@ class Site
   field :updated_at, :type => DateTime
   #field :page_id, :type => Integer
 
-  validate :name, :domain_id, :layout, :active, :presence => true
+  #validate fields
+  validates :name, :layout, :active, :presence => true
+  validates :domain_id, uniqueness: true
 
   has_many :pages
 

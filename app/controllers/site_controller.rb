@@ -35,7 +35,7 @@ class SiteController < ApplicationController
   private
 
   def site_params
-    params.require(:site).permit(:name, :alt_name)
+    params.require(:site).permit(:name, :alt_name, :layout)
   end
 
 end
