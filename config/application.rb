@@ -26,6 +26,11 @@ module Joblee
     # config.i18n.default_locale = :de
 
     # Configure sensitive parameters which will be filtered from the log file.
+
+    config.i18n.enforce_available_locales = true
+    # or if one of your gem compete for pre-loading, use
+    #I18n.config.enforce_available_locales = true
+
     config.filter_parameters += [:password]
 
     config.generators.stylesheets = false
