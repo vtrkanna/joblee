@@ -1,3 +1,12 @@
+http://stackoverflow.com/questions/23372313/rails-convert-time-string-to-spoken-text-string
+=> 
+	https://github.com/kslazarev/numbers_and_words/blob/master/lib/numbers_and_words.rb
+	http://stackoverflow.com/questions/13564680/convert-string-numbers-in-word-format-to-integer-ruby
+	http://stackoverflow.com/questions/15720725/how-to-convert-integers-to-their-word-representation
+	Time.now.strftime("%A %B %d, %I:%M %p %S")
+	Date.parse("Friday February seventh, three thirty AM two thousand fourteen")
+	Date.parse("Friday February 07, three thirty AM two thousand fourteen")
+
 Sample
 http://demo.thedevelovers.com/dashboard/kingboard-v1.1/
 
