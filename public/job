@@ -1,3 +1,21 @@
+last _02_05
+
+http://railscasts.com/episodes/196-nested-model-form-part-1
+http://railscasts.com/episodes?utf8=%E2%9C%93&search=nested+forms	
+http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html
+http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through
+http://stackoverflow.com/questions/2796489/how-do-i-use-accepts-nested-attributes-for
+http://stackoverflow.com/questions/16268984/how-can-i-use-accepts-nested-attributes-for-to-create-1-related-object-in-a-jo
+http://stackoverflow.com/questions/19459732/insert-data-into-multiple-tables-from-one-controller-view-rails-4
+http://stackoverflow.com/questions/3046607/rails-find-or-create-by-more-than-one-attribute
+http://guides.rubyonrails.org/active_record_querying.html
+http://apidock.com/rails/v4.0.2/ActiveRecord/Relation/find_or_create_by
+http://viget.com/extend/rails-engine-testing-with-rspec-capybara-and-factorygirl
+
+
+---
+
+
 http://stackoverflow.com/questions/23372313/rails-convert-time-string-to-spoken-text-string
 => 
 	https://github.com/kslazarev/numbers_and_words/blob/master/lib/numbers_and_words.rb

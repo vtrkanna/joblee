@@ -21,5 +21,8 @@ class Site
   validates :domain_id, uniqueness: true
 
   has_many :pages
+  has_one :domain
+
+  accepts_nested_attributes_for :domain, allow_destroy: true
 
 end
