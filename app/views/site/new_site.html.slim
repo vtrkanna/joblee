@@ -16,9 +16,10 @@ div id="jsn-promo" class="jsn-haspromoright"
                       =field_set_tag "Domain name"
                         =text_field_tag "domain"
                       =field_set_tag "layout"
-                        =text_field_tag "layout"
+                        =text_field_tag "site[layout]"
                       =field_set_tag "Tag"
-                        =text_field_tag "tag"
+                        =text_field_tag "site[tag]"
+                      =hidden_field_tag "site[active]", true
                       div class="submit_form_button"
                         =submit_tag("Create Site")
                 div class="clearbreak"

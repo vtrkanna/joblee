@@ -24,8 +24,11 @@ class SiteController < ApplicationController
 
   def create_site
     @site = Site.new(site_params)
+    domain = Domain.new(:url => params[:domain], :url_type => "Site_Url", :version => 1, :active => true, :site_id => @site.id)
+    @site.active = true
+    @site.domain_id = domain.id
     if @site.save
-      domain.save
+      @site.domain.save
       redirect_to action: :list
     else
       render action: :new_site
@@ -35,7 +38,7 @@ class SiteController < ApplicationController
   private
 
   def site_params
-    params.require(:site).permit(:name, :alt_name, :layout, domain: [:url, :url_type => "Site", :version => 1, :active => true ])
+    params.require(:site).permit(:name, :alt_name, :layout )
   end
 
 end
