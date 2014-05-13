@@ -23,15 +23,16 @@ class SiteController < ApplicationController
 
 
   def create_site
-    @site = Site.new(site_params)
-    domain = Domain.new(:url => params[:domain], :url_type => "Site_Url", :version => 1, :active => true, :site_id => @site.id)
-    domain.save
-    @site.active = true
-    @site.domain_id = domain.id.to_s
-    if @site.save
-      redirect_to action: :list
-    else
-      redirect_to action: :new_site
+    Site.transaction do
+      @site = Site.new(site_params)
+      @site.active = true
+      if @site.save
+        domain = @site.domains.new(:url => params[:domain], :url_type => "Site_Url", :version => 1, :active => true)
+        domain.save
+        redirect_to action: :list
+      else
+        redirect_to action: :new_site
+      end
     end
   end
 

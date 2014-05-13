@@ -4,7 +4,6 @@ class Site
 
   field :name, :type => String
   field :alt_name, :type => String
-  field :domain_id, :type => Integer
   field :active, :type => Boolean
   field :status_id, :type => Integer
   field :tag_id, :type => Integer
@@ -21,7 +20,7 @@ class Site
   validates :domain_id, uniqueness: true
 
   has_many :pages
-  has_one :domain
+  has_many :domain
 
   accepts_nested_attributes_for :domain, allow_destroy: true
 
